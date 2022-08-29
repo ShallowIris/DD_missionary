@@ -2,68 +2,68 @@
    "buffs":
    [
 	  {
-         "id" : "MISS_BLEED_REC_DEBUFF_1",
-         "stat_type" : "hp_dot_bleed_amount_received_percent",
+         "id" : "MISS_DMG_REC_BLEEDING_1",
+         "stat_type" : "damage_received_percent",
          "stat_sub_type" : "",
-         "amount" : 0.10,
+         "amount" : 0.1,
          "remove_if_not_active" : false,
-         "rule_type" : "always",
+         "rule_type" : "is_actor_status",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : ""
+            "string" : "bleeding"
 		 }
       },
-	  {
-         "id" : "MISS_BLEED_REC_DEBUFF_2",
-         "stat_type" : "hp_dot_bleed_amount_received_percent",
-         "stat_sub_type" : "",
-         "amount" : 0.11,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-		 }
-      },
-	  {
-         "id" : "MISS_BLEED_REC_DEBUFF_3",
-         "stat_type" : "hp_dot_bleed_amount_received_percent",
-         "stat_sub_type" : "",
-         "amount" : 0.12,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-		 }
-      },
-	  {
-         "id" : "MISS_BLEED_REC_DEBUFF_4",
-         "stat_type" : "hp_dot_bleed_amount_received_percent",
+      {
+         "id" : "MISS_DMG_REC_BLEEDING_2",
+         "stat_type" : "damage_received_percent",
          "stat_sub_type" : "",
          "amount" : 0.13,
          "remove_if_not_active" : false,
-         "rule_type" : "always",
+         "rule_type" : "is_actor_status",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : ""
+            "string" : "bleeding"
 		 }
       },
-	  {
-         "id" : "MISS_BLEED_REC_DEBUFF_5",
-         "stat_type" : "hp_dot_bleed_amount_received_percent",
+      {
+         "id" : "MISS_DMG_REC_BLEEDING_3",
+         "stat_type" : "damage_received_percent",
          "stat_sub_type" : "",
          "amount" : 0.15,
          "remove_if_not_active" : false,
-         "rule_type" : "always",
+         "rule_type" : "is_actor_status",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : ""
+            "string" : "bleeding"
+		 }
+      },
+      {
+         "id" : "MISS_DMG_REC_BLEEDING_4",
+         "stat_type" : "damage_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.18,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+		 }
+      },
+      {
+         "id" : "MISS_DMG_REC_BLEEDING_5",
+         "stat_type" : "damage_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
 		 }
       },
 	   {
@@ -265,7 +265,7 @@
          "id" : "MISS_CLAMANT_STUN_RES_DEBUFF_1",
          "stat_type" : "resistance",
          "stat_sub_type" : "stun",
-         "amount" : -0.10,
+         "amount" : -0.15,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -278,7 +278,7 @@
          "id" : "MISS_CLAMANT_STUN_RES_DEBUFF_2",
          "stat_type" : "resistance",
          "stat_sub_type" : "stun",
-         "amount" : -0.11,
+         "amount" : -0.18,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -291,7 +291,7 @@
          "id" : "MISS_CLAMANT_STUN_RES_DEBUFF_3",
          "stat_type" : "resistance",
          "stat_sub_type" : "stun",
-         "amount" : -0.12,
+         "amount" : -0.20,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -304,7 +304,7 @@
          "id" : "MISS_CLAMANT_STUN_RES_DEBUFF_4",
          "stat_type" : "resistance",
          "stat_sub_type" : "stun",
-         "amount" : -0.13,
+         "amount" : -0.23,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -317,7 +317,7 @@
          "id" : "MISS_CLAMANT_STUN_RES_DEBUFF_5",
          "stat_type" : "resistance",
          "stat_sub_type" : "stun",
-         "amount" : -0.15,
+         "amount" : -0.25,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -330,7 +330,7 @@
          "id" : "MISS_CLAMANT_STUN_CHANCE_DEBUFF_1",
          "stat_type" : "stun_chance",
          "stat_sub_type" : "",
-         "amount" : -0.10,
+         "amount" : -0.15,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -343,7 +343,7 @@
          "id" : "MISS_CLAMANT_STUN_CHANCE_DEBUFF_2",
          "stat_type" : "stun_chance",
          "stat_sub_type" : "",
-         "amount" : -0.11,
+         "amount" : -0.18,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -356,7 +356,7 @@
          "id" : "MISS_CLAMANT_STUN_CHANCE_DEBUFF_3",
          "stat_type" : "stun_chance",
          "stat_sub_type" : "",
-         "amount" : -0.12,
+         "amount" : -0.20,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -369,7 +369,7 @@
          "id" : "MISS_CLAMANT_STUN_CHANCE_DEBUFF_4",
          "stat_type" : "stun_chance",
          "stat_sub_type" : "",
-         "amount" : -0.13,
+         "amount" : -0.23,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -382,7 +382,7 @@
          "id" : "MISS_CLAMANT_STUN_CHANCE_DEBUFF_5",
          "stat_type" : "stun_chance",
          "stat_sub_type" : "",
-         "amount" : -0.15,
+         "amount" : -0.25,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,

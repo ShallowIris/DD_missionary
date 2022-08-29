@@ -9,17 +9,17 @@ effect: .name "missionary_on_crit_mark" .target "performer".chance 100% .buff_so
 //skills
 //hosticide
 
-effect: .name "Missionary_Hosticide_Bleed_1" .target "target" .chance 100% .dotBleed 1 .duration 3 .on_hit true .on_miss false
-effect: .name "Missionary_Hosticide_Bleed_2" .target "target" .chance 110% .dotBleed 2 .duration 3 .on_hit true .on_miss false
-effect: .name "Missionary_Hosticide_Bleed_3" .target "target" .chance 120% .dotBleed 2 .duration 3 .on_hit true .on_miss false
-effect: .name "Missionary_Hosticide_Bleed_4" .target "target" .chance 130% .dotBleed 3 .duration 3 .on_hit true .on_miss false
-effect: .name "Missionary_Hosticide_Bleed_5" .target "target" .chance 140% .dotBleed 4 .duration 3 .on_hit true .on_miss false
+effect: .name "Missionary_Hosticide_Bleed_1" .target "target" .chance 100% .dotBleed 3 .duration 3 .on_hit true .on_miss false
+effect: .name "Missionary_Hosticide_Bleed_2" .target "target" .chance 110% .dotBleed 3 .duration 3 .on_hit true .on_miss false
+effect: .name "Missionary_Hosticide_Bleed_3" .target "target" .chance 120% .dotBleed 4 .duration 3 .on_hit true .on_miss false
+effect: .name "Missionary_Hosticide_Bleed_4" .target "target" .chance 130% .dotBleed 4 .duration 3 .on_hit true .on_miss false
+effect: .name "Missionary_Hosticide_Bleed_5" .target "target" .chance 140% .dotBleed 5 .duration 3 .on_hit true .on_miss false
 
-effect: .name "Missionary_Hosticide_Effect_1" .target "target" .chance 90% .buff_ids "MISS_BLEED_REC_DEBUFF_1" .on_hit true .on_miss false
-effect: .name "Missionary_Hosticide_Effect_2" .target "target" .chance 100% .buff_ids "MISS_BLEED_REC_DEBUFF_2" .on_hit true .on_miss false
-effect: .name "Missionary_Hosticide_Effect_3" .target "target" .chance 110% .buff_ids "MISS_BLEED_REC_DEBUFF_3" .on_hit true .on_miss false
-effect: .name "Missionary_Hosticide_Effect_4" .target "target" .chance 120% .buff_ids "MISS_BLEED_REC_DEBUFF_4" .on_hit true .on_miss false
-effect: .name "Missionary_Hosticide_Effect_5" .target "target" .chance 130% .buff_ids "MISS_BLEED_REC_DEBUFF_5" .on_hit true .on_miss false
+effect: .name "Missionary_Hosticide_Effect_1" .target "target" .chance 90% .buff_ids "MISS_DMG_REC_BLEEDING_1" .on_hit true .on_miss false
+effect: .name "Missionary_Hosticide_Effect_2" .target "target" .chance 100% .buff_ids "MISS_DMG_REC_BLEEDING_2" .on_hit true .on_miss false
+effect: .name "Missionary_Hosticide_Effect_3" .target "target" .chance 110% .buff_ids "MISS_DMG_REC_BLEEDING_3" .on_hit true .on_miss false
+effect: .name "Missionary_Hosticide_Effect_4" .target "target" .chance 120% .buff_ids "MISS_DMG_REC_BLEEDING_4" .on_hit true .on_miss false
+effect: .name "Missionary_Hosticide_Effect_5" .target "target" .chance 130% .buff_ids "MISS_DMG_REC_BLEEDING_5" .on_hit true .on_miss false
 
 //martyrdom
 
