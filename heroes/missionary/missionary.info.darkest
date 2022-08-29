@@ -3,10 +3,10 @@
 resistances: .stun 40% .poison 30% .bleed 40% .disease 30% .move 40% .debuff 30% .death_blow 67% .trap 10%
 
 weapon: .name "missionary_weapon_0" .atk 0% .dmg 3 6 .crit 8% .spd 3
-weapon: .name "missionary_weapon_1" .atk 0% .dmg 4 7 .crit 9% .spd 3 .upgradeRequirementCode 0
-weapon: .name "missionary_weapon_2" .atk 0% .dmg 4 8 .crit 10% .spd 4 .upgradeRequirementCode 1
-weapon: .name "missionary_weapon_3" .atk 0% .dmg 5 9 .crit 11% .spd 4 .upgradeRequirementCode 2
-weapon: .name "missionary_weapon_4" .atk 0% .dmg 6 10 .crit 12% .spd 5 .upgradeRequirementCode 3
+weapon: .name "missionary_weapon_1" .atk 0% .dmg 4 6 .crit 9% .spd 3 .upgradeRequirementCode 0
+weapon: .name "missionary_weapon_2" .atk 0% .dmg 4 7 .crit 10% .spd 4 .upgradeRequirementCode 1
+weapon: .name "missionary_weapon_3" .atk 0% .dmg 5 8 .crit 11% .spd 4 .upgradeRequirementCode 2
+weapon: .name "missionary_weapon_4" .atk 0% .dmg 5 9 .crit 12% .spd 5 .upgradeRequirementCode 3
 
 armour: .name "missionary_armour_0" .def 5% .prot 0 .hp 32 .spd 0
 armour: .name "missionary_armour_1" .def 10% .prot 0 .hp 38 .spd 0 .upgradeRequirementCode 0
