@@ -82,11 +82,11 @@ effect: .name "Missionary_Dome_Guard" .target "performer_group_other" .curio_res
 
 effect: .name "Missionary_Dome_Cooldown" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "MISS_DOME_COOLDOWN_BUFF" .duration 4 .on_hit true .on_miss true .queue true
 
-effect: .name "Missionary_Dome_Effect_1" .target "performer" .chance 100% .buff_ids "MISS_DOME_PROT_BUFF_1" "MISS_DOME_MARKED_PROT_BUFF_1" .duration 3 .on_hit true .on_miss true .queue true
-effect: .name "Missionary_Dome_Effect_2" .target "performer" .chance 100% .buff_ids "MISS_DOME_PROT_BUFF_2" "MISS_DOME_MARKED_PROT_BUFF_2" .duration 3 .on_hit true .on_miss true .queue true
-effect: .name "Missionary_Dome_Effect_3" .target "performer" .chance 100% .buff_ids "MISS_DOME_PROT_BUFF_3" "MISS_DOME_MARKED_PROT_BUFF_3" .duration 3 .on_hit true .on_miss true .queue true
-effect: .name "Missionary_Dome_Effect_4" .target "performer" .chance 100% .buff_ids "MISS_DOME_PROT_BUFF_4" "MISS_DOME_MARKED_PROT_BUFF_4" .duration 3 .on_hit true .on_miss true .queue true
-effect: .name "Missionary_Dome_Effect_5" .target "performer" .chance 100% .buff_ids "MISS_DOME_PROT_BUFF_5" "MISS_DOME_MARKED_PROT_BUFF_5" .duration 3 .on_hit true .on_miss true .queue true
+effect: .name "Missionary_Dome_Effect_1" .target "performer" .chance 100% .buff_ids "MISS_DOME_PROT_BUFF_1" "MISS_DOME_MARKED_PROT_BUFF_1" .duration 3 .apply_once true .on_hit true .on_miss true .queue true
+effect: .name "Missionary_Dome_Effect_2" .target "performer" .chance 100% .buff_ids "MISS_DOME_PROT_BUFF_2" "MISS_DOME_MARKED_PROT_BUFF_2" .duration 3 .apply_once true .on_hit true .on_miss true .queue true
+effect: .name "Missionary_Dome_Effect_3" .target "performer" .chance 100% .buff_ids "MISS_DOME_PROT_BUFF_3" "MISS_DOME_MARKED_PROT_BUFF_3" .duration 3 .apply_once true .on_hit true .on_miss true .queue true
+effect: .name "Missionary_Dome_Effect_4" .target "performer" .chance 100% .buff_ids "MISS_DOME_PROT_BUFF_4" "MISS_DOME_MARKED_PROT_BUFF_4" .duration 3 .apply_once true .on_hit true .on_miss true .queue true
+effect: .name "Missionary_Dome_Effect_5" .target "performer" .chance 100% .buff_ids "MISS_DOME_PROT_BUFF_5" "MISS_DOME_MARKED_PROT_BUFF_5" .duration 3 .apply_once true .on_hit true .on_miss true .queue true
 
 //Corpus
 
