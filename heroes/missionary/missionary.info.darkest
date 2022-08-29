@@ -24,11 +24,11 @@ combat_move_skill: .id "move" .level 0 .type "move" .move 0 2 .launch 4321
 
 //Hosticide
 
-combat_skill: .id "missionary_hosticide" .level 0 .type "melee" .atk 90% .dmg 0% .crit 8% .launch 21 .target 12 .is_crit_valid True .effect "Missionary_Hosticide_Bleed_1" "Missionary_Hosticide_Effect_1"
-combat_skill: .id "missionary_hosticide" .level 1 .type "melee" .atk 95% .dmg 0% .crit 9% .launch 21 .target 12 .is_crit_valid True .effect "Missionary_Hosticide_Bleed_2" "Missionary_Hosticide_Effect_2"
-combat_skill: .id "missionary_hosticide" .level 2 .type "melee" .atk 100% .dmg 0% .crit 10% .launch 21 .target 12 .is_crit_valid True .effect "Missionary_Hosticide_Bleed_3" "Missionary_Hosticide_Effect_3"
-combat_skill: .id "missionary_hosticide" .level 3 .type "melee" .atk 105% .dmg 0% .crit 11% .launch 21 .target 12 .is_crit_valid True .effect "Missionary_Hosticide_Bleed_4" "Missionary_Hosticide_Effect_4"
-combat_skill: .id "missionary_hosticide" .level 4 .type "melee" .atk 110% .dmg 0% .crit 12% .launch 21 .target 12 .is_crit_valid True .effect "Missionary_Hosticide_Bleed_5" "Missionary_Hosticide_Effect_5"
+combat_skill: .id "missionary_hosticide" .level 0 .type "melee" .atk 90% .dmg 0% .crit 8% .launch 21 .target 12 .is_crit_valid True .effect "Missionary_Hosticide_Bleed_1" "Missionary_Hosticide_Effect_1" "Missionary_Hosticide_Clear_Riposte_Buff"
+combat_skill: .id "missionary_hosticide" .level 1 .type "melee" .atk 95% .dmg 0% .crit 9% .launch 21 .target 12 .is_crit_valid True .effect "Missionary_Hosticide_Bleed_2" "Missionary_Hosticide_Effect_2" "Missionary_Hosticide_Clear_Riposte_Buff"
+combat_skill: .id "missionary_hosticide" .level 2 .type "melee" .atk 100% .dmg 0% .crit 10% .launch 21 .target 12 .is_crit_valid True .effect "Missionary_Hosticide_Bleed_3" "Missionary_Hosticide_Effect_3" "Missionary_Hosticide_Clear_Riposte_Buff"
+combat_skill: .id "missionary_hosticide" .level 3 .type "melee" .atk 105% .dmg 0% .crit 11% .launch 21 .target 12 .is_crit_valid True .effect "Missionary_Hosticide_Bleed_4" "Missionary_Hosticide_Effect_4" "Missionary_Hosticide_Clear_Riposte_Buff"
+combat_skill: .id "missionary_hosticide" .level 4 .type "melee" .atk 110% .dmg 0% .crit 12% .launch 21 .target 12 .is_crit_valid True .effect "Missionary_Hosticide_Bleed_5" "Missionary_Hosticide_Effect_5" "Missionary_Hosticide_Clear_Riposte_Buff"
 
 //Martyrdom
 
@@ -64,11 +64,11 @@ combat_skill: .id "missionary_dogma" .level 4 .type "ranged" .atk 0% .dmg 0% .cr
 
 //Dome of Protection
 
-combat_skill: .id "missionary_dome" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 1234 .target ~@1234 .is_crit_valid False .self_target_valid false .effect "Missionary_Dome_Cooldown" "Missionary_Dome_Guard" "Missionary_Dome_Effect_1"
-combat_skill: .id "missionary_dome" .level 1 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 1234 .target ~@1234 .is_crit_valid False .self_target_valid false .effect "Missionary_Dome_Cooldown" "Missionary_Dome_Guard" "Missionary_Dome_Effect_2"
-combat_skill: .id "missionary_dome" .level 2 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 1234 .target ~@1234 .is_crit_valid False .self_target_valid false .effect "Missionary_Dome_Cooldown" "Missionary_Dome_Guard" "Missionary_Dome_Effect_3"
-combat_skill: .id "missionary_dome" .level 3 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 1234 .target ~@1234 .is_crit_valid False .self_target_valid false .effect "Missionary_Dome_Cooldown" "Missionary_Dome_Guard" "Missionary_Dome_Effect_4"
-combat_skill: .id "missionary_dome" .level 4 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 1234 .target ~@1234 .is_crit_valid False .self_target_valid false .effect "Missionary_Dome_Cooldown" "Missionary_Dome_Guard" "Missionary_Dome_Effect_5"
+combat_skill: .id "missionary_dome" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 1234 .target ~@1234 .is_crit_valid False .self_target_valid false .effect "Missionary_Dome_Cooldown" "Missionary_Dome_Guard" "Missionary_Dome_Effect_1" "Missionary_Dome_Riposte_1" "Missionary_Dome_Riposte_Buff_1"
+combat_skill: .id "missionary_dome" .level 1 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 1234 .target ~@1234 .is_crit_valid False .self_target_valid false .effect "Missionary_Dome_Cooldown" "Missionary_Dome_Guard" "Missionary_Dome_Effect_2" "Missionary_Dome_Riposte_2" "Missionary_Dome_Riposte_Buff_2"
+combat_skill: .id "missionary_dome" .level 2 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 1234 .target ~@1234 .is_crit_valid False .self_target_valid false .effect "Missionary_Dome_Cooldown" "Missionary_Dome_Guard" "Missionary_Dome_Effect_3" "Missionary_Dome_Riposte_3" "Missionary_Dome_Riposte_Buff_3"
+combat_skill: .id "missionary_dome" .level 3 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 1234 .target ~@1234 .is_crit_valid False .self_target_valid false .effect "Missionary_Dome_Cooldown" "Missionary_Dome_Guard" "Missionary_Dome_Effect_4" "Missionary_Dome_Riposte_4" "Missionary_Dome_Riposte_Buff_4"
+combat_skill: .id "missionary_dome" .level 4 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 1234 .target ~@1234 .is_crit_valid False .self_target_valid false .effect "Missionary_Dome_Cooldown" "Missionary_Dome_Guard" "Missionary_Dome_Effect_5" "Missionary_Dome_Riposte_5" "Missionary_Dome_Riposte_Buff_5"
 
 //Corpus Luceat
 
@@ -80,7 +80,7 @@ combat_skill: .id "missionary_corpus" .level 4 .type "ranged" .atk 0% .dmg 0% .c
 
 //Riposte-unused
 
-riposte_skill: .id "riposte1" .level 0 .type "melee" .atk 90% .dmg 0% .crit 8% .launch 1234 .target 1234 .is_crit_valid True 
+riposte_skill: .id "riposte1" .level 0 .type "melee" .atk 90% .dmg 0% .crit 8% .launch 1234 .target 1234 .is_crit_valid True .effect "Missionary_Riposte_BleedRes_Debuff_Target" "Missionary_Riposte_BleedAmount_Buff_Self"
 
 //Misc Stuff
 
