@@ -1,0 +1,41 @@
+
+missionary.sprite.dogma_target.png
+size: 702,650
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+back
+  rotate: true
+  xy: 256, 2
+  size: 308, 437
+  orig: 308, 437
+  offset: 0, 0
+  index: -1
+bits
+  rotate: false
+  xy: 2, 79
+  size: 252, 379
+  orig: 252, 379
+  offset: 0, 0
+  index: -1
+fx_vestal
+  rotate: true
+  xy: 382, 312
+  size: 336, 318
+  orig: 336, 318
+  offset: 0, 0
+  index: -1
+light_circle
+  rotate: true
+  xy: 170, 460
+  size: 188, 210
+  orig: 188, 210
+  offset: 0, 0
+  index: -1
+light_cross
+  rotate: false
+  xy: 2, 482
+  size: 166, 166
+  orig: 166, 166
+  offset: 0, 0
+  index: -1

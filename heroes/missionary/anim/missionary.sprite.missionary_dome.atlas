@@ -1,0 +1,55 @@
+
+missionary.sprite.missionary_dome.png
+size: 2451,653
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+black_steam
+  rotate: true
+  xy: 1380, 146
+  size: 505, 363
+  orig: 505, 363
+  offset: 0, 0
+  index: -1
+char_light
+  rotate: true
+  xy: 1749, 2
+  size: 202, 606
+  orig: 202, 606
+  offset: 0, 0
+  index: -1
+llighting
+  rotate: false
+  xy: 1745, 206
+  size: 354, 445
+  orig: 354, 445
+  offset: 0, 0
+  index: -1
+shade
+  rotate: true
+  xy: 734, 3
+  size: 648, 644
+  orig: 648, 644
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 1380, 70
+  size: 367, 74
+  orig: 367, 74
+  offset: 0, 0
+  index: -1
+sprite
+  rotate: false
+  xy: 2, 38
+  size: 730, 613
+  orig: 730, 613
+  offset: 0, 0
+  index: -1
+steam
+  rotate: true
+  xy: 2101, 274
+  size: 377, 348
+  orig: 377, 348
+  offset: 0, 0
+  index: -1

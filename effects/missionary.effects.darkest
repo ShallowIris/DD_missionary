@@ -1,0 +1,112 @@
+//shared
+
+//crit
+
+effect: .name "missionary_on_crit_mark" .target "performer".chance 100% .buff_source_type bsrc_crit .tag 1 .duration 3 .on_hit true .on_miss false .apply_once true
+
+//----------------------------------------------------
+
+//skills
+//hosticide
+
+effect: .name "Missionary_Hosticide_Bleed_1" .target "target" .chance 100% .dotBleed 1 .duration 3 .on_hit true .on_miss false
+effect: .name "Missionary_Hosticide_Bleed_2" .target "target" .chance 110% .dotBleed 2 .duration 3 .on_hit true .on_miss false
+effect: .name "Missionary_Hosticide_Bleed_3" .target "target" .chance 120% .dotBleed 2 .duration 3 .on_hit true .on_miss false
+effect: .name "Missionary_Hosticide_Bleed_4" .target "target" .chance 130% .dotBleed 3 .duration 3 .on_hit true .on_miss false
+effect: .name "Missionary_Hosticide_Bleed_5" .target "target" .chance 140% .dotBleed 4 .duration 3 .on_hit true .on_miss false
+
+effect: .name "Missionary_Hosticide_Effect_1" .target "target" .chance 90% .buff_ids "MISS_BLEED_REC_DEBUFF_1" .on_hit true .on_miss false
+effect: .name "Missionary_Hosticide_Effect_2" .target "target" .chance 100% .buff_ids "MISS_BLEED_REC_DEBUFF_2" .on_hit true .on_miss false
+effect: .name "Missionary_Hosticide_Effect_3" .target "target" .chance 110% .buff_ids "MISS_BLEED_REC_DEBUFF_3" .on_hit true .on_miss false
+effect: .name "Missionary_Hosticide_Effect_4" .target "target" .chance 120% .buff_ids "MISS_BLEED_REC_DEBUFF_4" .on_hit true .on_miss false
+effect: .name "Missionary_Hosticide_Effect_5" .target "target" .chance 130% .buff_ids "MISS_BLEED_REC_DEBUFF_5" .on_hit true .on_miss false
+
+//martyrdom
+
+effect: .name "Missionary_Martyr_Guard" .target "target" .chance 100% .guard 1 .duration 2 .on_hit true .on_miss true .queue true
+
+effect: .name "Missionary_Steal_Bleed" .target "target" .chance 100% .steal_buff_stat_type hp_dot_bleed .on_hit true .on_miss false .queue true
+
+effect: .name "Missionary_Martyr_Effect_1" .target "performer" .chance 100% .buff_ids "MISS_MARTYR_MARKED_PROT_BUFF_1" .duration 3 .on_hit true .on_miss true .queue true
+effect: .name "Missionary_Martyr_Effect_2" .target "performer" .chance 100% .buff_ids "MISS_MARTYR_MARKED_PROT_BUFF_2" .duration 3 .on_hit true .on_miss true .queue true
+effect: .name "Missionary_Martyr_Effect_3" .target "performer" .chance 100% .buff_ids "MISS_MARTYR_MARKED_PROT_BUFF_3" .duration 3 .on_hit true .on_miss true .queue true
+effect: .name "Missionary_Martyr_Effect_4" .target "performer" .chance 100% .buff_ids "MISS_MARTYR_MARKED_PROT_BUFF_4" .duration 3 .on_hit true .on_miss true .queue true
+effect: .name "Missionary_Martyr_Effect_5" .target "performer" .chance 100% .buff_ids "MISS_MARTYR_MARKED_PROT_BUFF_5" .duration 3 .on_hit true .on_miss true .queue true
+
+effect: .name "Missionary_Martyr_Mark_Self_1" .target "performer" .chance 80% .tag 1 .duration 2 .on_hit true .on_miss true .queue true
+effect: .name "Missionary_Martyr_Mark_Self_2" .target "performer" .chance 85% .tag 1 .duration 2 .on_hit true .on_miss true .queue true
+effect: .name "Missionary_Martyr_Mark_Self_3" .target "performer" .chance 90% .tag 1 .duration 2 .on_hit true .on_miss true .queue true
+effect: .name "Missionary_Martyr_Mark_Self_4" .target "performer" .chance 95% .tag 1 .duration 2 .on_hit true .on_miss true .queue true
+effect: .name "Missionary_Martyr_Mark_Self_5" .target "performer" .chance 100% .tag 1 .duration 2 .on_hit true .on_miss true .queue true
+
+effect: .name "Missionary_Clear_Marked_Target_1" .target "target" .chance 80% .untag 1	.on_hit true .on_miss true
+effect: .name "Missionary_Clear_Marked_Target_2" .target "target" .chance 85% .untag 1	.on_hit true .on_miss true
+effect: .name "Missionary_Clear_Marked_Target_3" .target "target" .chance 90% .untag 1	.on_hit true .on_miss true
+effect: .name "Missionary_Clear_Marked_Target_4" .target "target" .chance 95% .untag 1	.on_hit true .on_miss true
+effect: .name "Missionary_Clear_Marked_Target_5" .target "target" .chance 100% .untag 1	.on_hit true .on_miss true
+
+//Mortifer
+
+effect: .name "Missionary_CRIT_Buff_Mortifer_1" .target "performer" .chance 100% .duration 3 .buff_ids "MISS_MORTIFER_CRIT_BUFF_1" .on_hit true .on_miss true .queue true
+effect: .name "Missionary_CRIT_Buff_Mortifer_2" .target "performer" .chance 100% .duration 3 .buff_ids "MISS_MORTIFER_CRIT_BUFF_2" .on_hit true .on_miss true .queue true
+effect: .name "Missionary_CRIT_Buff_Mortifer_3" .target "performer" .chance 100% .duration 3 .buff_ids "MISS_MORTIFER_CRIT_BUFF_3" .on_hit true .on_miss true .queue true
+effect: .name "Missionary_CRIT_Buff_Mortifer_4" .target "performer" .chance 100% .duration 3 .buff_ids "MISS_MORTIFER_CRIT_BUFF_4" .on_hit true .on_miss true .queue true
+effect: .name "Missionary_CRIT_Buff_Mortifer_5" .target "performer" .chance 100% .duration 3 .buff_ids "MISS_MORTIFER_CRIT_BUFF_5" .on_hit true .on_miss true .queue true
+
+//Clamant
+
+effect: .name "Missionary_Clamant_Effect_1" .target "target" .chance 100% .buff_ids "MISS_CLAMANT_PROT_DEBUFF_1" "MISS_CLAMANT_STUN_RES_DEBUFF_1" "MISS_CLAMANT_STUN_CHANCE_DEBUFF_1" .on_hit true .on_miss false .queue true
+effect: .name "Missionary_Clamant_Effect_2" .target "target" .chance 110% .buff_ids "MISS_CLAMANT_PROT_DEBUFF_2" "MISS_CLAMANT_STUN_RES_DEBUFF_2" "MISS_CLAMANT_STUN_CHANCE_DEBUFF_2" .on_hit true .on_miss false .queue true
+effect: .name "Missionary_Clamant_Effect_3" .target "target" .chance 120% .buff_ids "MISS_CLAMANT_PROT_DEBUFF_3" "MISS_CLAMANT_STUN_RES_DEBUFF_3" "MISS_CLAMANT_STUN_CHANCE_DEBUFF_3" .on_hit true .on_miss false .queue true
+effect: .name "Missionary_Clamant_Effect_4" .target "target" .chance 130% .buff_ids "MISS_CLAMANT_PROT_DEBUFF_4" "MISS_CLAMANT_STUN_RES_DEBUFF_4" "MISS_CLAMANT_STUN_CHANCE_DEBUFF_4" .on_hit true .on_miss false .queue true
+effect: .name "Missionary_Clamant_Effect_5" .target "target" .chance 140% .buff_ids "MISS_CLAMANT_PROT_DEBUFF_5" "MISS_CLAMANT_STUN_RES_DEBUFF_5" "MISS_CLAMANT_STUN_CHANCE_DEBUFF_5" .on_hit true .on_miss false .queue true
+
+//Dogma
+
+effect: .name "Missionary_Dogma_Effect_1" .target "target" .chance 100% .buff_ids "MISS_DOGMA_HORROR_DUR_BUFF" "MISS_DOGMA_BLIGHT_REC_BUFF_1" "MISS_DOGMA_BLEED_REC_BUFF_1" .on_hit true .on_miss false .queue true
+effect: .name "Missionary_Dogma_Effect_2" .target "target" .chance 100% .buff_ids "MISS_DOGMA_HORROR_DUR_BUFF" "MISS_DOGMA_BLIGHT_REC_BUFF_2" "MISS_DOGMA_BLEED_REC_BUFF_2" .on_hit true .on_miss false .queue true
+effect: .name "Missionary_Dogma_Effect_3" .target "target" .chance 100% .buff_ids "MISS_DOGMA_HORROR_DUR_BUFF" "MISS_DOGMA_BLIGHT_REC_BUFF_3" "MISS_DOGMA_BLEED_REC_BUFF_3" .on_hit true .on_miss false .queue true
+effect: .name "Missionary_Dogma_Effect_4" .target "target" .chance 100% .buff_ids "MISS_DOGMA_HORROR_DUR_BUFF" "MISS_DOGMA_BLIGHT_REC_BUFF_4" "MISS_DOGMA_BLEED_REC_BUFF_4" .on_hit true .on_miss false .queue true
+effect: .name "Missionary_Dogma_Effect_5" .target "target" .chance 100% .buff_ids "MISS_DOGMA_HORROR_DUR_BUFF" "MISS_DOGMA_BLIGHT_REC_BUFF_5" "MISS_DOGMA_BLEED_REC_BUFF_5" .on_hit true .on_miss false .queue true
+
+effect: .name "Missionary_Dogma_Light" .target "global" .chance 100% .torch_increase 20	.on_hit true .on_miss true .apply_once true .queue true 
+
+effect: .name "Missionary_Dogma_Cooldown" .target "performer" .skill_instant true .chance 100% .buff_ids "MISS_DOGMA_COOLDOWN_TOOLTIP"  .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Missionary_Dogma_Cooldown_Tooltip" .target "target" .chance 1000% .duration 999 .buff_ids "MISS_DOGMA_UHH_COOLDOWN_TOOLTIP" "MISS_DOGMA_COOLDOWN_DISABLE"  .on_hit true .on_miss true .queue true  .apply_once true .has_description false .swap_source_and_target true
+
+effect: .name "Missionary_Dogma_FakeStress" .target "target" .chance 100% .stress 1 .on_hit false .on_miss false .has_description false
+
+//Dome
+
+effect: .name "Missionary_Dome_Guard" .target "performer_group_other" .curio_result_type "positive" .chance 100% .guard 1 .duration 3 .on_hit true .on_miss true .queue true
+
+effect: .name "Missionary_Dome_Cooldown" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "MISS_DOME_COOLDOWN_BUFF" .duration 4 .on_hit true .on_miss true .queue true
+
+effect: .name "Missionary_Dome_Effect_1" .target "performer" .chance 100% .buff_ids "MISS_DOME_PROT_BUFF_1" "MISS_DOME_MARKED_PROT_BUFF_1" .duration 3 .on_hit true .on_miss true .queue true
+effect: .name "Missionary_Dome_Effect_2" .target "performer" .chance 100% .buff_ids "MISS_DOME_PROT_BUFF_2" "MISS_DOME_MARKED_PROT_BUFF_2" .duration 3 .on_hit true .on_miss true .queue true
+effect: .name "Missionary_Dome_Effect_3" .target "performer" .chance 100% .buff_ids "MISS_DOME_PROT_BUFF_3" "MISS_DOME_MARKED_PROT_BUFF_3" .duration 3 .on_hit true .on_miss true .queue true
+effect: .name "Missionary_Dome_Effect_4" .target "performer" .chance 100% .buff_ids "MISS_DOME_PROT_BUFF_4" "MISS_DOME_MARKED_PROT_BUFF_4" .duration 3 .on_hit true .on_miss true .queue true
+effect: .name "Missionary_Dome_Effect_5" .target "performer" .chance 100% .buff_ids "MISS_DOME_PROT_BUFF_5" "MISS_DOME_MARKED_PROT_BUFF_5" .duration 3 .on_hit true .on_miss true .queue true
+
+//Corpus
+
+effect: .name "Missionary_Corpus_Heal_Effect_1" .target "performer" .chance 100% .heal_percent 0.10 .on_hit true .on_miss true .queue true .can_crit_heal true
+effect: .name "Missionary_Corpus_Heal_Effect_2" .target "performer" .chance 100% .heal_percent 0.11 .on_hit true .on_miss true .queue true .can_crit_heal true
+effect: .name "Missionary_Corpus_Heal_Effect_3" .target "performer" .chance 100% .heal_percent 0.12 .on_hit true .on_miss true .queue true .can_crit_heal true
+effect: .name "Missionary_Corpus_Heal_Effect_4" .target "performer" .chance 100% .heal_percent 0.13 .on_hit true .on_miss true .queue true .can_crit_heal true
+effect: .name "Missionary_Corpus_Heal_Effect_5" .target "performer" .chance 100% .heal_percent 0.15 .on_hit true .on_miss true .queue true .can_crit_heal true
+
+effect: .name "Missionary_Corpus_Stress_Effect_1" .target "performer" .chance 100% .healstress 3 .on_hit true .on_miss true .queue true
+effect: .name "Missionary_Corpus_Stress_Effect_2" .target "performer" .chance 100% .healstress 4 .on_hit true .on_miss true .queue true
+effect: .name "Missionary_Corpus_Stress_Effect_3" .target "performer" .chance 100% .healstress 5 .on_hit true .on_miss true .queue true
+effect: .name "Missionary_Corpus_Stress_Effect_4" .target "performer" .chance 100% .healstress 6 .on_hit true .on_miss true .queue true
+effect: .name "Missionary_Corpus_Stress_Effect_5" .target "performer" .chance 100% .healstress 7 .on_hit true .on_miss true .queue true
+
+effect: .name "Missionary_Corpus_Effect_1" .target "performer" .chance 100% .buff_ids "MISS_CORPUS_PROT_BUFF_1" .on_hit true .on_miss false .queue true
+effect: .name "Missionary_Corpus_Effect_2" .target "performer" .chance 100% .buff_ids "MISS_CORPUS_PROT_BUFF_2" .on_hit true .on_miss false .queue true
+effect: .name "Missionary_Corpus_Effect_3" .target "performer" .chance 100% .buff_ids "MISS_CORPUS_PROT_BUFF_3" .on_hit true .on_miss false .queue true
+effect: .name "Missionary_Corpus_Effect_4" .target "performer" .chance 100% .buff_ids "MISS_CORPUS_PROT_BUFF_4" .on_hit true .on_miss false .queue true
+effect: .name "Missionary_Corpus_Effect_5" .target "performer" .chance 100% .buff_ids "MISS_CORPUS_PROT_BUFF_5" .on_hit true .on_miss false .queue true
+
+effect: .name "Missionary_Corpus_Clear_Marked_Target" .target "performer" .chance 100% .untag 1	.on_hit true .on_miss true
+

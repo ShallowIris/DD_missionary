@@ -1,0 +1,76 @@
+
+missionary.sprite.missionary_corpus.png
+size: 3176,472
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bits
+  rotate: false
+  xy: 2866, 170
+  size: 142, 300
+  orig: 142, 300
+  offset: 0, 0
+  index: -1
+blur
+  rotate: false
+  xy: 2134, 4
+  size: 572, 466
+  orig: 572, 466
+  offset: 0, 0
+  index: -1
+light
+  rotate: false
+  xy: 1546, 2
+  size: 586, 468
+  orig: 586, 468
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 3010, 103
+  size: 367, 74
+  orig: 367, 74
+  offset: 0, 0
+  index: -1
+silhouette
+  rotate: false
+  xy: 2, 10
+  size: 770, 460
+  orig: 770, 460
+  offset: 0, 0
+  index: -1
+smoke Copy
+  rotate: false
+  xy: 2708, 54
+  size: 156, 416
+  orig: 156, 416
+  offset: 0, 0
+  index: -1
+smoke_small1 Copy
+  rotate: false
+  xy: 3086, 286
+  size: 86, 86
+  orig: 86, 86
+  offset: 0, 0
+  index: -1
+smoke_small2 Copy
+  rotate: true
+  xy: 2866, 67
+  size: 101, 126
+  orig: 101, 126
+  offset: 0, 0
+  index: -1
+smoke_small3 Copy
+  rotate: false
+  xy: 3086, 374
+  size: 88, 96
+  orig: 88, 96
+  offset: 0, 0
+  index: -1
+sprite
+  rotate: false
+  xy: 774, 10
+  size: 770, 460
+  orig: 770, 460
+  offset: 0, 0
+  index: -1

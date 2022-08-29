@@ -1,0 +1,100 @@
+//Stats
+
+resistances: .stun 40% .poison 30% .bleed 40% .disease 30% .move 40% .debuff 30% .death_blow 67% .trap 10%
+
+weapon: .name "missionary_weapon_0" .atk 0% .dmg 3 6 .crit 8% .spd 3
+weapon: .name "missionary_weapon_1" .atk 0% .dmg 4 6 .crit 9% .spd 3 .upgradeRequirementCode 0
+weapon: .name "missionary_weapon_2" .atk 0% .dmg 4 7 .crit 10% .spd 4 .upgradeRequirementCode 1
+weapon: .name "missionary_weapon_3" .atk 0% .dmg 5 8 .crit 11% .spd 4 .upgradeRequirementCode 2
+weapon: .name "missionary_weapon_4" .atk 0% .dmg 5 9 .crit 12% .spd 5 .upgradeRequirementCode 3
+
+armour: .name "missionary_armour_0" .def 5% .prot 0 .hp 32 .spd 0
+armour: .name "missionary_armour_1" .def 10% .prot 0 .hp 38 .spd 0 .upgradeRequirementCode 0
+armour: .name "missionary_armour_2" .def 15% .prot 0 .hp 44 .spd 0 .upgradeRequirementCode 1
+armour: .name "missionary_armour_3" .def 20% .prot 0 .hp 50 .spd 0 .upgradeRequirementCode 2
+armour: .name "missionary_armour_4" .def 25% .prot 0 .hp 56 .spd 0 .upgradeRequirementCode 3
+
+//Crit
+
+crit: .effects "missionary_on_crit_mark"
+
+//Combat skills
+
+combat_move_skill: .id "move" .level 0 .type "move" .move 0 2 .launch 4321
+
+//Hosticide
+
+combat_skill: .id "missionary_hosticide" .level 0 .type "melee" .atk 90% .dmg 0% .crit 8% .launch 21 .target 12 .is_crit_valid True .effect "Missionary_Hosticide_Bleed_1" "Missionary_Hosticide_Effect_1"
+combat_skill: .id "missionary_hosticide" .level 1 .type "melee" .atk 95% .dmg 0% .crit 9% .launch 21 .target 12 .is_crit_valid True .effect "Missionary_Hosticide_Bleed_2" "Missionary_Hosticide_Effect_2"
+combat_skill: .id "missionary_hosticide" .level 2 .type "melee" .atk 100% .dmg 0% .crit 10% .launch 21 .target 12 .is_crit_valid True .effect "Missionary_Hosticide_Bleed_3" "Missionary_Hosticide_Effect_3"
+combat_skill: .id "missionary_hosticide" .level 3 .type "melee" .atk 105% .dmg 0% .crit 11% .launch 21 .target 12 .is_crit_valid True .effect "Missionary_Hosticide_Bleed_4" "Missionary_Hosticide_Effect_4"
+combat_skill: .id "missionary_hosticide" .level 4 .type "melee" .atk 110% .dmg 0% .crit 12% .launch 21 .target 12 .is_crit_valid True .effect "Missionary_Hosticide_Bleed_5" "Missionary_Hosticide_Effect_5"
+
+//Martyrdom
+
+combat_skill: .id "missionary_martyrdom" .level 0 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 321 .target @4321 .is_crit_valid False .self_target_valid false .effect "Clear Guard Performer" "Clear Guard Target" "Missionary_Martyr_Guard" "Missionary_Martyr_Effect_1" "Missionary_Steal_Bleed" "Missionary_Martyr_Mark_Self_1" "Missionary_Clear_Marked_Target_1"
+combat_skill: .id "missionary_martyrdom" .level 1 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 321 .target @4321 .is_crit_valid False .self_target_valid false .effect "Clear Guard Performer" "Clear Guard Target" "Missionary_Martyr_Guard" "Missionary_Martyr_Effect_2" "Missionary_Steal_Bleed" "Missionary_Martyr_Mark_Self_2" "Missionary_Clear_Marked_Target_2"
+combat_skill: .id "missionary_martyrdom" .level 2 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 321 .target @4321 .is_crit_valid False .self_target_valid false .effect "Clear Guard Performer" "Clear Guard Target" "Missionary_Martyr_Guard" "Missionary_Martyr_Effect_3" "Missionary_Steal_Bleed" "Missionary_Martyr_Mark_Self_3" "Missionary_Clear_Marked_Target_3"
+combat_skill: .id "missionary_martyrdom" .level 3 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 321 .target @4321 .is_crit_valid False .self_target_valid false .effect "Clear Guard Performer" "Clear Guard Target" "Missionary_Martyr_Guard" "Missionary_Martyr_Effect_4" "Missionary_Steal_Bleed" "Missionary_Martyr_Mark_Self_4" "Missionary_Clear_Marked_Target_4"
+combat_skill: .id "missionary_martyrdom" .level 4 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 321 .target @4321 .is_crit_valid False .self_target_valid false .effect "Clear Guard Performer" "Clear Guard Target" "Missionary_Martyr_Guard" "Missionary_Martyr_Effect_5" "Missionary_Steal_Bleed" "Missionary_Martyr_Mark_Self_5" "Missionary_Clear_Marked_Target_5"
+
+//Mortifer
+
+combat_skill: .id "missionary_mortifer" .level 0 .type "melee" .atk 90% .dmg -25% .crit 6% .move 0 1 .launch 43 .target 12 .is_crit_valid True .effect "Push 2A" "Missionary_CRIT_Buff_Mortifer_1"
+combat_skill: .id "missionary_mortifer" .level 1 .type "melee" .atk 95% .dmg -25% .crit 7% .move 0 1 .launch 43 .target 12 .is_crit_valid True .effect "Push 2B" "Missionary_CRIT_Buff_Mortifer_2"
+combat_skill: .id "missionary_mortifer" .level 2 .type "melee" .atk 100% .dmg -25% .crit 8% .move 0 1 .launch 43 .target 12 .is_crit_valid True .effect "Push 2C" "Missionary_CRIT_Buff_Mortifer_3"
+combat_skill: .id "missionary_mortifer" .level 3 .type "melee" .atk 105% .dmg -25% .crit 9% .move 0 1 .launch 43 .target 12 .is_crit_valid True .effect "Push 2D" "Missionary_CRIT_Buff_Mortifer_4"
+combat_skill: .id "missionary_mortifer" .level 4 .type "melee" .atk 110% .dmg -25% .crit 10% .move 0 1 .launch 43 .target 12 .is_crit_valid True .effect "Push 2E" "Missionary_CRIT_Buff_Mortifer_5"
+
+//Clamant
+
+combat_skill: .id "missionary_clamant" .level 0 .type "ranged" .atk 90% .dmg -90% .crit 0% .move 1 0 .launch 21 .target ~1234 .is_crit_valid True .effect "Missionary_Clamant_Effect_1"
+combat_skill: .id "missionary_clamant" .level 1 .type "ranged" .atk 95% .dmg -90% .crit 0% .move 1 0 .launch 21 .target ~1234 .is_crit_valid True .effect "Missionary_Clamant_Effect_2"
+combat_skill: .id "missionary_clamant" .level 2 .type "ranged" .atk 100% .dmg -90% .crit 0% .move 1 0 .launch 21 .target ~1234 .is_crit_valid True .effect "Missionary_Clamant_Effect_3"
+combat_skill: .id "missionary_clamant" .level 3 .type "ranged" .atk 105% .dmg -90% .crit 0% .move 1 0 .launch 21 .target ~1234 .is_crit_valid True .effect "Missionary_Clamant_Effect_4"
+combat_skill: .id "missionary_clamant" .level 4 .type "ranged" .atk 110% .dmg -90% .crit 0% .move 1 0 .launch 21 .target ~1234 .is_crit_valid True .effect "Missionary_Clamant_Effect_5"
+
+//Recite Dogma
+
+combat_skill: .id "missionary_dogma" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 1234 .target ~@1234 .is_crit_valid False .effect "Missionary_Dogma_Effect_1" "Missionary_Dogma_Light" "Missionary_Dogma_Cooldown" "Missionary_Dogma_Cooldown_Tooltip" "Missionary_Dogma_FakeStress"
+combat_skill: .id "missionary_dogma" .level 1 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 1234 .target ~@1234 .is_crit_valid False .effect "Missionary_Dogma_Effect_2" "Missionary_Dogma_Light" "Missionary_Dogma_Cooldown" "Missionary_Dogma_Cooldown_Tooltip" "Missionary_Dogma_FakeStress"
+combat_skill: .id "missionary_dogma" .level 2 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 1234 .target ~@1234 .is_crit_valid False .effect "Missionary_Dogma_Effect_3" "Missionary_Dogma_Light" "Missionary_Dogma_Cooldown" "Missionary_Dogma_Cooldown_Tooltip" "Missionary_Dogma_FakeStress"
+combat_skill: .id "missionary_dogma" .level 3 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 1234 .target ~@1234 .is_crit_valid False .effect "Missionary_Dogma_Effect_4" "Missionary_Dogma_Light" "Missionary_Dogma_Cooldown" "Missionary_Dogma_Cooldown_Tooltip" "Missionary_Dogma_FakeStress"
+combat_skill: .id "missionary_dogma" .level 4 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 1234 .target ~@1234 .is_crit_valid False .effect "Missionary_Dogma_Effect_5" "Missionary_Dogma_Light" "Missionary_Dogma_Cooldown" "Missionary_Dogma_Cooldown_Tooltip" "Missionary_Dogma_FakeStress"
+
+//Dome of Protection
+
+combat_skill: .id "missionary_dome" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 1234 .target ~@1234 .is_crit_valid False .self_target_valid false .effect "Missionary_Dome_Cooldown" "Missionary_Dome_Guard" "Missionary_Dome_Effect_1"
+combat_skill: .id "missionary_dome" .level 1 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 1234 .target ~@1234 .is_crit_valid False .self_target_valid false .effect "Missionary_Dome_Cooldown" "Missionary_Dome_Guard" "Missionary_Dome_Effect_2"
+combat_skill: .id "missionary_dome" .level 2 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 1234 .target ~@1234 .is_crit_valid False .self_target_valid false .effect "Missionary_Dome_Cooldown" "Missionary_Dome_Guard" "Missionary_Dome_Effect_3"
+combat_skill: .id "missionary_dome" .level 3 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 1234 .target ~@1234 .is_crit_valid False .self_target_valid false .effect "Missionary_Dome_Cooldown" "Missionary_Dome_Guard" "Missionary_Dome_Effect_4"
+combat_skill: .id "missionary_dome" .level 4 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 1234 .target ~@1234 .is_crit_valid False .self_target_valid false .effect "Missionary_Dome_Cooldown" "Missionary_Dome_Guard" "Missionary_Dome_Effect_5"
+
+//Corpus Luceat
+
+combat_skill: .id "missionary_corpus" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 1234 .target .required_performer_hp_range 0 0.40 .effect "Missionary_Corpus_Heal_Effect_1" "Missionary_Corpus_Stress_Effect_1" "Missionary_Corpus_Effect_1" "Missionary_Corpus_Clear_Marked_Target"
+combat_skill: .id "missionary_corpus" .level 1 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 1234 .target .required_performer_hp_range 0 0.40 .effect "Missionary_Corpus_Heal_Effect_2" "Missionary_Corpus_Stress_Effect_2" "Missionary_Corpus_Effect_2" "Missionary_Corpus_Clear_Marked_Target"
+combat_skill: .id "missionary_corpus" .level 2 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 1234 .target .required_performer_hp_range 0 0.40 .effect "Missionary_Corpus_Heal_Effect_3" "Missionary_Corpus_Stress_Effect_3" "Missionary_Corpus_Effect_3" "Missionary_Corpus_Clear_Marked_Target"
+combat_skill: .id "missionary_corpus" .level 3 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 1234 .target .required_performer_hp_range 0 0.40 .effect "Missionary_Corpus_Heal_Effect_4" "Missionary_Corpus_Stress_Effect_4" "Missionary_Corpus_Effect_4" "Missionary_Corpus_Clear_Marked_Target"
+combat_skill: .id "missionary_corpus" .level 4 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 1234 .target .required_performer_hp_range 0 0.40 .effect "Missionary_Corpus_Heal_Effect_5" "Missionary_Corpus_Stress_Effect_5" "Missionary_Corpus_Effect_5" "Missionary_Corpus_Clear_Marked_Target"
+
+//Riposte-unused
+
+riposte_skill: .id "riposte1" .level 0 .type "melee" .atk 90% .dmg 0% .crit 8% .launch 1234 .target 1234 .is_crit_valid True 
+
+//Misc Stuff
+
+tag: .id "heavy"
+tag: .id "religious"
+tag: .id "altar_of_light"
+tag: .id "missionary"
+
+controlled: .target_rank 1
+
+id_index: .index 7957
+
+skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4
+
+generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4 .number_of_cards_in_deck 50 .card_chance 5.0
+
+incompatible_party_member: .id missionary_limit .hero_tag missionary

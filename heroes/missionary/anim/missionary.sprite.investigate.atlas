@@ -1,0 +1,20 @@
+
+missionary.sprite.investigate.png
+size: 732,602
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Missionary_Investigate
+  rotate: true
+  xy: 2, 2
+  size: 598, 652
+  orig: 598, 652
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 656, 233
+  size: 367, 74
+  orig: 367, 74
+  offset: 0, 0
+  index: -1

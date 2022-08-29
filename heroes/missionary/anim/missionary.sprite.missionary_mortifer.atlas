@@ -1,0 +1,62 @@
+
+missionary.sprite.missionary_mortifer.png
+size: 2040,1073
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bits_1
+  rotate: false
+  xy: 1851, 868
+  size: 187, 203
+  orig: 187, 203
+  offset: 0, 0
+  index: -1
+bits_2
+  rotate: true
+  xy: 1735, 150
+  size: 424, 288
+  orig: 424, 288
+  offset: 0, 0
+  index: -1
+dust
+  rotate: false
+  xy: 863, 576
+  size: 910, 495
+  orig: 910, 495
+  offset: 0, 0
+  index: -1
+motion_blur
+  rotate: false
+  xy: 2, 512
+  size: 859, 559
+  orig: 859, 559
+  offset: 0, 0
+  index: -1
+motion_line
+  rotate: false
+  xy: 459, 8
+  size: 435, 502
+  orig: 435, 502
+  offset: 0, 0
+  index: -1
+shade
+  rotate: false
+  xy: 2, 2
+  size: 455, 508
+  orig: 455, 508
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 1775, 704
+  size: 367, 74
+  orig: 367, 74
+  offset: 0, 0
+  index: -1
+sprite
+  rotate: false
+  xy: 896, 15
+  size: 837, 559
+  orig: 837, 559
+  offset: 0, 0
+  index: -1

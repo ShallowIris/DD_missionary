@@ -1,0 +1,947 @@
+{
+   "buffs":
+   [
+	  {
+         "id" : "MISS_BLEED_REC_DEBUFF_1",
+         "stat_type" : "hp_dot_bleed_amount_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	  {
+         "id" : "MISS_BLEED_REC_DEBUFF_2",
+         "stat_type" : "hp_dot_bleed_amount_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.11,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	  {
+         "id" : "MISS_BLEED_REC_DEBUFF_3",
+         "stat_type" : "hp_dot_bleed_amount_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.12,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	  {
+         "id" : "MISS_BLEED_REC_DEBUFF_4",
+         "stat_type" : "hp_dot_bleed_amount_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.13,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	  {
+         "id" : "MISS_BLEED_REC_DEBUFF_5",
+         "stat_type" : "hp_dot_bleed_amount_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	   {
+         "id" : "MISS_MARTYR_MARKED_PROT_BUFF_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+		 }
+      },
+	  {
+         "id" : "MISS_MARTYR_MARKED_PROT_BUFF_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.22,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+		 }
+      },
+	  {
+         "id" : "MISS_MARTYR_MARKED_PROT_BUFF_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.24,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+		 }
+      },
+	  {
+         "id" : "MISS_MARTYR_MARKED_PROT_BUFF_4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.27,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+		 }
+      },
+	  {
+         "id" : "MISS_MARTYR_MARKED_PROT_BUFF_5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+		 }
+      },
+	   {
+         "id" : "MISS_MORTIFER_CRIT_BUFF_5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	   {
+         "id" : "MISS_MORTIFER_CRIT_BUFF_4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.08,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	   {
+         "id" : "MISS_MORTIFER_CRIT_BUFF_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	   {
+         "id" : "MISS_MORTIFER_CRIT_BUFF_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.06,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	   {
+         "id" : "MISS_MORTIFER_CRIT_BUFF_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	  {
+         "id" : "MISS_CLAMANT_PROT_DEBUFF_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : -0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	  {
+         "id" : "MISS_CLAMANT_PROT_DEBUFF_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : -0.11,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	  {
+         "id" : "MISS_CLAMANT_PROT_DEBUFF_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : -0.12,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	  {
+         "id" : "MISS_CLAMANT_PROT_DEBUFF_4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : -0.13,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	  {
+         "id" : "MISS_CLAMANT_PROT_DEBUFF_5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : -0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	   {
+         "id" : "MISS_CLAMANT_STUN_RES_DEBUFF_1",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : -0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	  {
+         "id" : "MISS_CLAMANT_STUN_RES_DEBUFF_2",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : -0.11,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	  {
+         "id" : "MISS_CLAMANT_STUN_RES_DEBUFF_3",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : -0.12,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	  {
+         "id" : "MISS_CLAMANT_STUN_RES_DEBUFF_4",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : -0.13,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	  {
+         "id" : "MISS_CLAMANT_STUN_RES_DEBUFF_5",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : -0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	  {
+         "id" : "MISS_CLAMANT_STUN_CHANCE_DEBUFF_1",
+         "stat_type" : "stun_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	  {
+         "id" : "MISS_CLAMANT_STUN_CHANCE_DEBUFF_2",
+         "stat_type" : "stun_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.11,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	  {
+         "id" : "MISS_CLAMANT_STUN_CHANCE_DEBUFF_3",
+         "stat_type" : "stun_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.12,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	  {
+         "id" : "MISS_CLAMANT_STUN_CHANCE_DEBUFF_4",
+         "stat_type" : "stun_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.13,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	  {
+         "id" : "MISS_CLAMANT_STUN_CHANCE_DEBUFF_5",
+         "stat_type" : "stun_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	  {
+         "id" : "MISS_DOGMA_HORROR_DUR_BUFF",
+         "stat_type" : "stress_dot_amount_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+		 "duration_type" : "combat_end",
+         "duration" : 1,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	   {
+         "id" : "MISS_DOGMA_BLIGHT_REC_BUFF_1",
+         "stat_type" : "hp_dot_poison_amount_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+		 "duration_type" : "combat_end",
+         "duration" : 1,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	  {
+         "id" : "MISS_DOGMA_BLIGHT_REC_BUFF_2",
+         "stat_type" : "hp_dot_poison_amount_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.23,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+		 "duration_type" : "combat_end",
+         "duration" : 1,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	  {
+         "id" : "MISS_DOGMA_BLIGHT_REC_BUFF_3",
+         "stat_type" : "hp_dot_poison_amount_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.27,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+		 "duration_type" : "combat_end",
+         "duration" : 1,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	  {
+         "id" : "MISS_DOGMA_BLIGHT_REC_BUFF_4",
+         "stat_type" : "hp_dot_poison_amount_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.31,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+		 "duration_type" : "combat_end",
+         "duration" : 1,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	  {
+         "id" : "MISS_DOGMA_BLIGHT_REC_BUFF_5",
+         "stat_type" : "hp_dot_poison_amount_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.35,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+		 "duration_type" : "combat_end",
+         "duration" : 1,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	   {
+         "id" : "MISS_DOGMA_BLEED_REC_BUFF_1",
+         "stat_type" : "hp_dot_bleed_amount_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+		 "duration_type" : "combat_end",
+         "duration" : 1,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	  {
+         "id" : "MISS_DOGMA_BLEED_REC_BUFF_2",
+         "stat_type" : "hp_dot_bleed_amount_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.23,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+		 "duration_type" : "combat_end",
+         "duration" : 1,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	  {
+         "id" : "MISS_DOGMA_BLEED_REC_BUFF_3",
+         "stat_type" : "hp_dot_bleed_amount_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.27,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+		 "duration_type" : "combat_end",
+         "duration" : 1,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	  {
+         "id" : "MISS_DOGMA_BLEED_REC_BUFF_4",
+         "stat_type" : "hp_dot_bleed_amount_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.31,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+		 "duration_type" : "combat_end",
+         "duration" : 1,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	  {
+         "id" : "MISS_DOGMA_BLEED_REC_BUFF_5",
+         "stat_type" : "hp_dot_bleed_amount_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.35,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+		 "duration_type" : "combat_end",
+         "duration" : 1,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	  	  {
+         "id" : "MISS_DOGMA_COOLDOWN_TOOLTIP",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "MISS_DOGMA_COOLDOWN_TOOLTIP",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	  {
+         "id" : "MISS_DOGMA_UHH_COOLDOWN_TOOLTIP",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "MISS_DOGMA_UHH_COOLDOWN_TOOLTIP",
+         "amount" : 0,
+		 "remove_on_battle_complete" : true,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "is_clear_debuff_valid": false
+      },
+	  	   {
+         "id" : "MISS_DOGMA_COOLDOWN_DISABLE",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "stress",
+         "amount" : 1.0,
+		 "remove_on_battle_complete" : true,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "is_clear_debuff_valid": false,
+		 "has_description" : false	 
+      },
+	   {
+         "id" : "MISS_DOME_COOLDOWN_BUFF",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "guard",
+         "amount" : 1.0,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 },
+		 "is_clear_debuff_valid": false
+      },
+	  {
+         "id" : "MISS_DOME_PROT_BUFF_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	  {
+         "id" : "MISS_DOME_PROT_BUFF_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.12,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	  {
+         "id" : "MISS_DOME_PROT_BUFF_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.14,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	  {
+         "id" : "MISS_DOME_PROT_BUFF_4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.17,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	  {
+         "id" : "MISS_DOME_PROT_BUFF_5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	  {
+         "id" : "MISS_DOME_MARKED_PROT_BUFF_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+		 }
+      },
+	  {
+         "id" : "MISS_DOME_MARKED_PROT_BUFF_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+		 }
+      },
+	  {
+         "id" : "MISS_DOME_MARKED_PROT_BUFF_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.12,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+		 }
+      },
+	  {
+         "id" : "MISS_DOME_MARKED_PROT_BUFF_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.14,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+		 }
+      },
+	  {
+         "id" : "MISS_DOME_MARKED_PROT_BUFF_4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.17,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+		 }
+      },
+	  {
+         "id" : "MISS_DOME_MARKED_PROT_BUFF_5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+		 }
+      },
+	   {
+         "id" : "MISS_CORPUS_PROT_BUFF_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.11,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	  {
+         "id" : "MISS_CORPUS_PROT_BUFF_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.12,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	  {
+         "id" : "MISS_CORPUS_PROT_BUFF_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.13,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	  {
+         "id" : "MISS_CORPUS_PROT_BUFF_4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.14,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	  {
+         "id" : "MISS_CORPUS_PROT_BUFF_5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	  {
+         "id" : "MISS_REQUIEM_HPBUFF",
+        "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "max_hp",
+         "amount" : 0.15,
+		 "duration" : -1,
+		 "duration_type" : "",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "MISS_REQUIEM_ACCBUFF",
+        "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.10,
+		 "duration" : -1,
+		 "duration_type" : "",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "MISS_REQUIEM_DMGBUFF_MIN",
+        "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.15,
+		 "duration" : -1,
+		 "duration_type" : "",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "MISS_REQUIEM_DMGBUFF_MAX",
+        "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.15,
+		 "duration" : -1,
+		 "duration_type" : "",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "MISS_CAMP_PREVENT_MARK_BUFF",
+         "stat_type" : "tag_blocked",
+         "stat_sub_type" : "",
+         "amount" : 1,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "MISS_CAMP_STRESS_HEAL_BUFF",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 1,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	    {
+         "id" : "MISS_RELIGIOUS_CRIT_BUFF",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 1.0,
+		 "duration_type" : "combat_end",
+		 "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      },
+	   {
+         "id" : "MISS_NON_RELIGIOUS_CRIT_BUFF",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 1.0,
+		 "duration_type" : "combat_end",
+		 "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+      }
+	]
+}

@@ -1,0 +1,69 @@
+
+missionary.sprite.missionary_clamant.png
+size: 1947,1061
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+char_glow
+  rotate: false
+  xy: 704, 487
+  size: 586, 572
+  orig: 586, 572
+  offset: 0, 0
+  index: -1
+char_light
+  rotate: false
+  xy: 1507, 82
+  size: 237, 160
+  orig: 237, 160
+  offset: 0, 0
+  index: -1
+l1
+  rotate: true
+  xy: 2, 41
+  size: 433, 714
+  orig: 433, 714
+  offset: 0, 0
+  index: -1
+l2
+  rotate: true
+  xy: 1261, 2
+  size: 240, 244
+  orig: 240, 244
+  offset: 0, 0
+  index: -1
+l3
+  rotate: false
+  xy: 718, 91
+  size: 465, 394
+  orig: 465, 394
+  offset: 0, 0
+  index: -1
+l4
+  rotate: false
+  xy: 1261, 244
+  size: 684, 227
+  orig: 684, 227
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 1185, 118
+  size: 367, 74
+  orig: 367, 74
+  offset: 0, 0
+  index: -1
+shadow_back
+  rotate: true
+  xy: 2, 476
+  size: 583, 700
+  orig: 583, 700
+  offset: 0, 0
+  index: -1
+sprite
+  rotate: true
+  xy: 1292, 473
+  size: 586, 562
+  orig: 586, 562
+  offset: 0, 0
+  index: -1

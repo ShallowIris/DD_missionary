@@ -1,0 +1,33 @@
+commonfx: .deathfx death_medium
+
+weapon: .name "missionary_weapon_0" .icon "eqp_weapon_0.png"
+weapon: .name "missionary_weapon_1" .icon "eqp_weapon_1.png"
+weapon: .name "missionary_weapon_2" .icon "eqp_weapon_2.png"
+weapon: .name "missionary_weapon_3" .icon "eqp_weapon_3.png"
+weapon: .name "missionary_weapon_4" .icon "eqp_weapon_4.png"
+
+armour: .name "missionary_armour_0" .icon "eqp_armour_0.png"
+armour: .name "missionary_armour_1" .icon "eqp_armour_1.png"
+armour: .name "missionary_armour_2" .icon "eqp_armour_2.png"
+armour: .name "missionary_armour_3" .icon "eqp_armour_3.png"
+armour: .name "missionary_armour_4" .icon "eqp_armour_4.png"
+
+combat_skill: .id "missionary_hosticide" .icon "one" .anim "missionary_hosticide" .fx "" .targchestfx "blood_splatter"
+
+combat_skill: .id "missionary_mortifer" .icon "three" .anim "missionary_mortifer" .fx "" .targchestfx "blood_splatter"
+
+combat_skill: .id "missionary_clamant" .icon "four" .anim "missionary_clamant" .fx "" .targfx "judgement_target" .area_pos_offset -20 12
+ 
+combat_skill: .id "missionary_martyrdom" .icon "two" .anim "missionary_martyrdom" .fx "" .targchestfx "martyrdom_target" .area_pos_offset 0 12
+
+combat_skill: .id "missionary_corpus" .icon "seven" .anim "missionary_corpus" .fx "" .area_pos_offset 0 10
+
+combat_skill: .id "missionary_dome" .icon "six" .anim "missionary_dome" .fx "" .targchestfx "dome_target" .area_pos_offset 0 12
+
+combat_skill: .id "missionary_dogma" .icon "five" .anim "missionary_dogma" .fx "" .targchestfx "dogma_target" .area_pos_offset 0 12
+
+combat_move_skill: .id "move" .icon "generic_move" .anim "idle"
+
+riposte_skill: .id "riposte1" .anim "missionary_mortifer" .fx "riposte" .targchestfx "blood_splatter"
+
+act_out_display: .attack_friendly_anim "missionary_mortifer" .attack_friendly_fx "" .attack_friendly_targchestfx "blood_splatter" .attack_friendly_sfx ""

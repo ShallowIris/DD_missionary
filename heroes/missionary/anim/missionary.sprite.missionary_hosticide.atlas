@@ -1,0 +1,48 @@
+
+missionary.sprite.missionary_hosticide.png
+size: 1297,2045
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Sprite
+  rotate: false
+  xy: 2, 901
+  size: 1067, 557
+  orig: 1067, 557
+  offset: 0, 0
+  index: -1
+blur
+  rotate: false
+  xy: 2, 1460
+  size: 1135, 583
+  orig: 1135, 583
+  offset: 0, 0
+  index: -1
+fx
+  rotate: false
+  xy: 2, 2
+  size: 587, 339
+  orig: 587, 339
+  offset: 0, 0
+  index: -1
+shade
+  rotate: false
+  xy: 2, 343
+  size: 811, 556
+  orig: 811, 556
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 1139, 1676
+  size: 367, 74
+  orig: 367, 74
+  offset: 0, 0
+  index: -1
+steam
+  rotate: true
+  xy: 815, 127
+  size: 772, 480
+  orig: 772, 480
+  offset: 0, 0
+  index: -1

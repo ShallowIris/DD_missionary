@@ -1,0 +1,48 @@
+
+missionary.sprite.dome_target.png
+size: 790,648
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+back
+  rotate: false
+  xy: 2, 228
+  size: 418, 418
+  orig: 418, 418
+  offset: 0, 0
+  index: -1
+fx1
+  rotate: true
+  xy: 558, 12
+  size: 161, 156
+  orig: 161, 156
+  offset: 0, 0
+  index: -1
+fx2
+  rotate: true
+  xy: 325, 2
+  size: 224, 231
+  orig: 224, 231
+  offset: 0, 0
+  index: -1
+fx3
+  rotate: true
+  xy: 558, 175
+  size: 196, 230
+  orig: 196, 230
+  offset: 0, 0
+  index: -1
+shield_1
+  rotate: true
+  xy: 2, 49
+  size: 177, 321
+  orig: 177, 321
+  offset: 0, 0
+  index: -1
+shield_2
+  rotate: true
+  xy: 422, 373
+  size: 273, 309
+  orig: 273, 309
+  offset: 0, 0
+  index: -1

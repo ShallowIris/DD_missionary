@@ -1,0 +1,48 @@
+
+missionary.sprite.martyrdom_target.png
+size: 626,702
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg_1
+  rotate: true
+  xy: 2, 130
+  size: 219, 227
+  orig: 219, 227
+  offset: 0, 0
+  index: -1
+bg_2
+  rotate: false
+  xy: 231, 75
+  size: 219, 227
+  orig: 219, 227
+  offset: 0, 0
+  index: -1
+bg_light
+  rotate: false
+  xy: 2, 351
+  size: 349, 349
+  orig: 349, 349
+  offset: 0, 0
+  index: -1
+bits
+  rotate: false
+  xy: 452, 2
+  size: 164, 300
+  orig: 164, 300
+  offset: 0, 0
+  index: -1
+wing_left
+  rotate: true
+  xy: 353, 503
+  size: 197, 271
+  orig: 197, 271
+  offset: 0, 0
+  index: -1
+wing_right
+  rotate: true
+  xy: 353, 304
+  size: 197, 271
+  orig: 197, 271
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,20 @@
+
+missionary.sprite.camp.png
+size: 631,527
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Missionary_Camp
+  rotate: false
+  xy: 2, 2
+  size: 551, 523
+  orig: 551, 523
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 555, 158
+  size: 367, 74
+  orig: 367, 74
+  offset: 0, 0
+  index: -1

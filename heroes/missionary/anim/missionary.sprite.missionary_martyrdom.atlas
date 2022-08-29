@@ -1,0 +1,111 @@
+
+missionary.sprite.missionary_martyrdom.png
+size: 3579,791
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Sprite
+  rotate: true
+  xy: 872, 26
+  size: 763, 931
+  orig: 763, 931
+  offset: 0, 0
+  index: -1
+blood_1
+  rotate: true
+  xy: 2587, 67
+  size: 63, 453
+  orig: 63, 453
+  offset: 0, 0
+  index: -1
+blood_2
+  rotate: true
+  xy: 2218, 4
+  size: 50, 353
+  orig: 50, 353
+  offset: 0, 0
+  index: -1
+blood_back_1
+  rotate: true
+  xy: 3371, 3
+  size: 146, 200
+  orig: 146, 200
+  offset: 0, 0
+  index: -1
+blood_back_2
+  rotate: true
+  xy: 3149, 621
+  size: 168, 308
+  orig: 168, 308
+  offset: 0, 0
+  index: -1
+character_light
+  rotate: true
+  xy: 2, 10
+  size: 779, 868
+  orig: 779, 868
+  offset: 0, 0
+  index: -1
+character_red_light
+  rotate: true
+  xy: 2218, 132
+  size: 657, 929
+  orig: 657, 929
+  offset: 0, 0
+  index: -1
+shade
+  rotate: true
+  xy: 1805, 27
+  size: 762, 411
+  orig: 762, 411
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2218, 56
+  size: 367, 74
+  orig: 367, 74
+  offset: 0, 0
+  index: -1
+wing_low_left
+  rotate: false
+  xy: 3149, 466
+  size: 257, 153
+  orig: 257, 153
+  offset: 0, 0
+  index: -1
+wing_low_right
+  rotate: false
+  xy: 3149, 311
+  size: 257, 153
+  orig: 257, 153
+  offset: 0, 0
+  index: -1
+wing_middle_left
+  rotate: false
+  xy: 3149, 2
+  size: 220, 147
+  orig: 220, 147
+  offset: 0, 0
+  index: -1
+wing_middle_right
+  rotate: false
+  xy: 3149, 162
+  size: 220, 147
+  orig: 220, 147
+  offset: 0, 0
+  index: -1
+wing_up_left
+  rotate: false
+  xy: 3408, 386
+  size: 169, 233
+  orig: 169, 233
+  offset: 0, 0
+  index: -1
+wing_up_right
+  rotate: false
+  xy: 3408, 151
+  size: 169, 233
+  orig: 169, 233
+  offset: 0, 0
+  index: -1

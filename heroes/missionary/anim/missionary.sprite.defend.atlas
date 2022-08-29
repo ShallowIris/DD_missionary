@@ -1,0 +1,20 @@
+
+missionary.sprite.defend.png
+size: 830,718
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Missionary_Defend
+  rotate: false
+  xy: 2, 2
+  size: 750, 714
+  orig: 750, 714
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 754, 349
+  size: 367, 74
+  orig: 367, 74
+  offset: 0, 0
+  index: -1
