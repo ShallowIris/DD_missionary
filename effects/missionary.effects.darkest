@@ -127,4 +127,4 @@ effect: .name "Missionary_Corpus_Clear_Marked_Target" .target "performer" .chanc
 // Riposte
 
 effect: .name "Missionary_Riposte_BleedRes_Debuff_Target" .target "target" .chance 100% .buff_ids "MISS_RIPOSTE_BLEEDRESIST_DEBUFF" .on_hit true .on_miss false
-effect: .name "Missionary_Riposte_BleedAmount_Buff_Self" .target "performer" .chance 100% .duration 1 .buff_duration_type combat_end .buff_ids "MISS_RIPOSTE_BLEEDAMOUNT_BUFF" .on_hit true .on_miss true .apply_once true .buff_source_type bsrc_companion
+effect: .name "Missionary_Riposte_BleedAmount_Buff_Self" .target "performer" .chance 100% .duration 1 .buff_duration_type combat_end .buff_ids "MISS_RIPOSTE_BLEEDAMOUNT_BUFF" .on_hit true .on_miss true .buff_source_type bsrc_companion
