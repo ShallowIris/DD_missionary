@@ -24,11 +24,11 @@ combat_move_skill: .id "move" .level 0 .type "move" .move 0 2 .launch 4321
 
 //Hosticide
 
-combat_skill: .id "missionary_hosticide" .level 0 .type "melee" .atk 90% .dmg 0% .crit 8% .launch 21 .target 12 .is_crit_valid True .effect "Missionary_Hosticide_Bleed_1" "Missionary_Hosticide_Effect_1" "Missionary_Hosticide_Clear_Riposte_Buff"
-combat_skill: .id "missionary_hosticide" .level 1 .type "melee" .atk 95% .dmg 0% .crit 9% .launch 21 .target 12 .is_crit_valid True .effect "Missionary_Hosticide_Bleed_2" "Missionary_Hosticide_Effect_2" "Missionary_Hosticide_Clear_Riposte_Buff"
-combat_skill: .id "missionary_hosticide" .level 2 .type "melee" .atk 100% .dmg 0% .crit 10% .launch 21 .target 12 .is_crit_valid True .effect "Missionary_Hosticide_Bleed_3" "Missionary_Hosticide_Effect_3" "Missionary_Hosticide_Clear_Riposte_Buff"
-combat_skill: .id "missionary_hosticide" .level 3 .type "melee" .atk 105% .dmg 0% .crit 11% .launch 21 .target 12 .is_crit_valid True .effect "Missionary_Hosticide_Bleed_4" "Missionary_Hosticide_Effect_4" "Missionary_Hosticide_Clear_Riposte_Buff"
-combat_skill: .id "missionary_hosticide" .level 4 .type "melee" .atk 110% .dmg 0% .crit 12% .launch 21 .target 12 .is_crit_valid True .effect "Missionary_Hosticide_Bleed_5" "Missionary_Hosticide_Effect_5" "Missionary_Hosticide_Clear_Riposte_Buff"
+combat_skill: .id "missionary_hosticide" .level 0 .type "melee" .atk 90% .dmg 0% .crit 8% .launch 21 .target 12 .is_crit_valid True .effect "Missionary_Hosticide_Bleed_1" "Missionary_Hosticide_Effect_1" "Missionary_Hosticide_Clear_Riposte_Buff" .generation_guaranteed true
+combat_skill: .id "missionary_hosticide" .level 1 .type "melee" .atk 95% .dmg 0% .crit 9% .launch 21 .target 12 .is_crit_valid True .effect "Missionary_Hosticide_Bleed_2" "Missionary_Hosticide_Effect_2" "Missionary_Hosticide_Clear_Riposte_Buff" .generation_guaranteed true
+combat_skill: .id "missionary_hosticide" .level 2 .type "melee" .atk 100% .dmg 0% .crit 10% .launch 21 .target 12 .is_crit_valid True .effect "Missionary_Hosticide_Bleed_3" "Missionary_Hosticide_Effect_3" "Missionary_Hosticide_Clear_Riposte_Buff" .generation_guaranteed true
+combat_skill: .id "missionary_hosticide" .level 3 .type "melee" .atk 105% .dmg 0% .crit 11% .launch 21 .target 12 .is_crit_valid True .effect "Missionary_Hosticide_Bleed_4" "Missionary_Hosticide_Effect_4" "Missionary_Hosticide_Clear_Riposte_Buff" .generation_guaranteed true
+combat_skill: .id "missionary_hosticide" .level 4 .type "melee" .atk 110% .dmg 0% .crit 12% .launch 21 .target 12 .is_crit_valid True .effect "Missionary_Hosticide_Bleed_5" "Missionary_Hosticide_Effect_5" "Missionary_Hosticide_Clear_Riposte_Buff" .generation_guaranteed true
 
 //Martyrdom
 
