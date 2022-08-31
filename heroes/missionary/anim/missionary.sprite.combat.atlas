@@ -1,243 +1,243 @@
 
 missionary.sprite.combat.png
-size: 763,1050
+size: 1482,540
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 back_skirt
   rotate: false
-  xy: 573, 622
+  xy: 155, 2
   size: 169, 152
   orig: 169, 152
   offset: 0, 0
   index: -1
 body
-  rotate: false
-  xy: 357, 793
+  rotate: true
+  xy: 357, 156
   size: 238, 255
   orig: 238, 255
   offset: 0, 0
   index: -1
 book
-  rotate: true
-  xy: 2, 3
+  rotate: false
+  xy: 629, 38
   size: 159, 140
   orig: 159, 140
   offset: 0, 0
   index: -1
 censer
-  rotate: true
-  xy: 346, 158
+  rotate: false
+  xy: 1140, 160
   size: 101, 170
   orig: 101, 170
   offset: 0, 0
   index: -1
 censer_chain_back
   rotate: false
-  xy: 144, 2
+  xy: 1416, 378
   size: 64, 160
   orig: 64, 160
   offset: 0, 0
   index: -1
 censer_chain_front
   rotate: true
-  xy: 346, 124
+  xy: 629, 4
   size: 32, 174
   orig: 32, 174
   offset: 0, 0
   index: -1
 censer_ring
   rotate: true
-  xy: 688, 126
+  xy: 1239, 2
   size: 69, 73
   orig: 69, 73
   offset: 0, 0
   index: -1
 chain1
-  rotate: true
-  xy: 700, 290
+  rotate: false
+  xy: 2, 9
   size: 108, 37
   orig: 108, 37
   offset: 0, 0
   index: -1
 chain2
-  rotate: true
-  xy: 155, 583
+  rotate: false
+  xy: 898, 30
   size: 81, 46
   orig: 81, 46
   offset: 0, 0
   index: -1
 down_skirt_left
   rotate: false
-  xy: 346, 261
+  xy: 1257, 402
   size: 157, 136
   orig: 157, 136
   offset: 0, 0
   index: -1
 down_skirt_right
-  rotate: false
-  xy: 210, 34
+  rotate: true
+  xy: 793, 78
   size: 110, 119
   orig: 110, 119
   offset: 0, 0
   index: -1
 elbow_right
-  rotate: false
-  xy: 601, 299
+  rotate: true
+  xy: 1022, 61
   size: 97, 99
   orig: 97, 99
   offset: 0, 0
   index: -1
 fabric_chest
-  rotate: false
-  xy: 222, 363
+  rotate: true
+  xy: 326, 34
   size: 120, 301
   orig: 120, 301
   offset: 0, 0
   index: -1
 fingers_right
-  rotate: true
-  xy: 614, 54
+  rotate: false
+  xy: 1314, 13
   size: 51, 58
   orig: 51, 58
   offset: 0, 0
   index: -1
 hand_right
-  rotate: true
-  xy: 614, 107
+  rotate: false
+  xy: 1406, 304
   size: 74, 72
   orig: 74, 72
   offset: 0, 0
   index: -1
 helmet
   rotate: false
-  xy: 344, 399
+  xy: 958, 249
   size: 173, 213
   orig: 173, 213
   offset: 0, 0
   index: -1
 leg_left
   rotate: false
-  xy: 608, 498
+  xy: 1243, 180
   size: 134, 122
   orig: 134, 122
   offset: 0, 0
   index: -1
 leg_right
   rotate: true
-  xy: 322, 17
+  xy: 1243, 73
   size: 105, 124
   orig: 105, 124
   offset: 0, 0
   index: -1
 neck_armor
-  rotate: true
-  xy: 519, 432
+  rotate: false
+  xy: 958, 160
   size: 180, 87
   orig: 180, 87
   offset: 0, 0
   index: -1
 shadow
-  rotate: true
-  xy: 146, 189
+  rotate: false
+  xy: 751, 464
   size: 367, 74
   orig: 367, 74
   offset: 0, 0
   index: -1
 shield
   rotate: false
-  xy: 2, 558
+  xy: 2, 48
   size: 151, 490
   orig: 151, 490
   offset: 0, 0
   index: -1
 shoulder_left
-  rotate: true
-  xy: 448, 16
+  rotate: false
+  xy: 914, 78
   size: 106, 80
   orig: 106, 80
   offset: 0, 0
   index: -1
 shoulder_right
   rotate: true
-  xy: 608, 400
+  xy: 1257, 304
   size: 96, 147
   orig: 96, 147
   offset: 0, 0
   index: -1
 shoulderplate_left
-  rotate: false
-  xy: 518, 177
+  rotate: true
+  xy: 1123, 69
   size: 89, 99
   orig: 89, 99
   offset: 0, 0
   index: -1
 shoulderplate_right
-  rotate: false
-  xy: 676, 197
+  rotate: true
+  xy: 805, 3
   size: 73, 91
   orig: 73, 91
   offset: 0, 0
   index: -1
 smoke
-  rotate: false
-  xy: 2, 164
+  rotate: true
+  xy: 357, 396
   size: 142, 392
   orig: 142, 392
   offset: 0, 0
   index: -1
 smoke_small1
   rotate: false
-  xy: 530, 3
+  xy: 1369, 6
   size: 79, 79
   orig: 79, 79
   offset: 0, 0
   index: -1
 smoke_small2
   rotate: false
-  xy: 505, 278
+  xy: 1379, 183
   size: 94, 119
   orig: 94, 119
   offset: 0, 0
   index: -1
 smoke_small3
   rotate: false
-  xy: 530, 84
+  xy: 1369, 87
   size: 82, 91
   orig: 82, 91
   offset: 0, 0
   index: -1
 up_skirt_left
-  rotate: true
-  xy: 357, 614
+  rotate: false
+  xy: 614, 180
   size: 177, 214
   orig: 177, 214
   offset: 0, 0
   index: -1
 up_skirt_right
   rotate: false
-  xy: 222, 155
+  xy: 1133, 332
   size: 122, 206
   orig: 122, 206
   offset: 0, 0
   index: -1
 visor
-  rotate: true
-  xy: 609, 183
+  rotate: false
+  xy: 1123, 2
   size: 114, 65
   orig: 114, 65
   offset: 0, 0
   index: -1
 wing_left
   rotate: false
-  xy: 155, 666
+  xy: 155, 156
   size: 200, 382
   orig: 200, 382
   offset: 0, 0
   index: -1
 wing_right
   rotate: false
-  xy: 597, 776
+  xy: 793, 190
   size: 163, 272
   orig: 163, 272
   offset: 0, 0
