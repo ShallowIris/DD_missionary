@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+ <language id="english">
+	<entry id="hero_class_name_missionary"><![CDATA[Missionary]]></entry>
+	
+    <entry id="missionary_armour_0"><![CDATA[1]]></entry>
+    <entry id="missionary_armour_1"><![CDATA[2]]></entry>
+    <entry id="missionary_armour_2"><![CDATA[3]]></entry>
+    <entry id="missionary_armour_3"><![CDATA[4]]></entry>
+    <entry id="missionary_armour_4"><![CDATA["5"]]></entry>
+	<entry id="upgrade_tree_name_missionary.armour"><![CDATA[1]]></entry>
+	
+    <entry id="missionary_weapon_0"><![CDATA[1]]></entry>
+    <entry id="missionary_weapon_1"><![CDATA[2]]></entry>
+    <entry id="missionary_weapon_2"><![CDATA[3]]></entry>
+    <entry id="missionary_weapon_3"><![CDATA[4]]></entry>
+    <entry id="missionary_weapon_4"><![CDATA["5"]]></entry>
+	<entry id="upgrade_tree_name_missionary.weapon"><![CDATA[1]]></entry>
+	
+	
+	<entry id="combat_skill_name_missionary_missionary_hosticide"><![CDATA[Hosticide]]></entry>
+    <entry id="combat_skill_name_missionary_missionary_martyrdom"><![CDATA[Martyrdom]]></entry>
+    <entry id="combat_skill_name_missionary_missionary_mortifer"><![CDATA[Mortifer]]></entry>
+    <entry id="combat_skill_name_missionary_missionary_clamant"><![CDATA[Clamant]]></entry>
+    <entry id="combat_skill_name_missionary_missionary_dogma"><![CDATA[Recite Dogma]]></entry>
+    <entry id="combat_skill_name_missionary_missionary_dome"><![CDATA[Blind Faith]]></entry>
+    <entry id="combat_skill_name_missionary_missionary_corpus"><![CDATA[Corpus Luceat]]></entry>
+    <entry id="combat_skill_name_missionary_move"><![CDATA[Move]]></entry>
+    <entry id="upgrade_tree_name_missionary.missionary_hosticide"><![CDATA[Hosticide]]></entry>
+    <entry id="upgrade_tree_name_missionary.missionary_martyrdom"><![CDATA[Martyrdom]]></entry>
+    <entry id="upgrade_tree_name_missionary.missionary_mortifer"><![CDATA[Mortifer]]></entry>
+    <entry id="upgrade_tree_name_missionary.missionary_clamant"><![CDATA[Clamant]]></entry>
+    <entry id="upgrade_tree_name_missionary.missionary_dogma"><![CDATA[Recite Dogma]]></entry>
+    <entry id="upgrade_tree_name_missionary.missionary_dome"><![CDATA[Blind Faith]]></entry>
+    <entry id="upgrade_tree_name_missionary.missionary_corpus"><![CDATA[Corpus Luceat]]></entry>
+	
+    <entry id="camping_skill_name_requiem_aeternam"><![CDATA[REQUIEM AETERNAM]]></entry>
+    <entry id="camping_skill_name_negatio"><![CDATA[NEGATIO]]></entry>
+    <entry id="camping_skill_name_lamento"><![CDATA[LAMENT]]></entry>
+	<entry id="camping_skill_name_ad_meliora"><![CDATA[AD MELIORA]]></entry>
+	
+    <entry id="action_verbose_body_guild_missionary"><![CDATA[Be Not Afraid]]></entry> 
+    <entry id="action_verbose_body_blacksmith_missionary"><![CDATA[1]]></entry>
+    <entry id="action_verbose_body_camping_trainer_missionary"><![CDATA[1]]></entry>
+	
+	<!--trinkets-->
+	
+	<!--tooltips-->
+	
+	<!--town events-->
+	
+	<!--boss reaction barks-->
+	
+	<!--basic barks-->
+	
+	<entry id="missionary+str_critbyhero"><![CDATA[I may yet be saved!]]></entry>
+	<entry id="missionary+str_critbyhero"><![CDATA[Your choices lead to your own undoing!]]></entry>
+	<entry id="missionary+str_critbyhero"><![CDATA[Not so fearsome after all.]]></entry>
+	<entry id="missionary+str_critbyhero"><![CDATA[There is worse out there than you!]]></entry>
+	<entry id="missionary+str_critbyhero"><![CDATA[Failure will not haunt me today!]]></entry>
+	<entry id="missionary+str_critbyhero"><![CDATA[The Light shall ruin you, too!]]></entry>
+	<entry id="missionary+str_critbyhero"><![CDATA[In the afterlife, you’ll burn eternal.]]></entry>
+	<entry id="missionary+str_critbyhero"><![CDATA[Return to dust, wretch.]]></entry>
+	<entry id="missionary+str_critbyhero"><![CDATA[No one will grant your wicked soul penance.]]></entry>
+	
+	<!--town barks-->
+	
+	<!--expedition barks-->
+	
+	<!--death door barks-->
+	
+	<!--camping barks-->
+	
+	<!--quirk barks-->
+	
+	<!--affliction barks-->
+	<!--fearful-->
+	<!--paranoid-->
+	<!--masochistic-->
+	<!--abusive-->
+	<!--selfish-->
+	<!--depressed (hopeless)-->
+	<!--irrational-->
+	<!--refracted-->
+	
+	<!--virtue barks-->
+	<!--stalwart-->
+	<!--courageous-->
+	<!--focused-->
+	<!--powerful-->
+	<!--vigorous-->
+	
+	<!--mods barks-->
+	
+ </language>
+ 
+</root>
