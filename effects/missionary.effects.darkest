@@ -49,11 +49,11 @@ effect: .name "Missionary_Mortifier_Stun_3" .target "target" .chance 100% .stun 
 effect: .name "Missionary_Mortifier_Stun_4" .target "target" .chance 110% .stun 1 .on_hit true .on_miss false .queue false
 effect: .name "Missionary_Mortifier_Stun_5" .target "target" .chance 120% .stun 1 .on_hit true .on_miss false .queue false
 
-effect: .name "Missionary_Mortifier_Push_1" .target "target" .push 3 .chance 80%	.on_hit true .on_miss false .can_apply_on_death true .queue false
-effect: .name "Missionary_Mortifier_Push_2" .target "target" .push 3 .chance 90%	.on_hit true .on_miss false .can_apply_on_death true .queue false
-effect: .name "Missionary_Mortifier_Push_3" .target "target" .push 3 .chance 100%	.on_hit true .on_miss false .can_apply_on_death true .queue false
-effect: .name "Missionary_Mortifier_Push_4" .target "target" .push 3 .chance 110%	.on_hit true .on_miss false .can_apply_on_death true .queue false
-effect: .name "Missionary_Mortifier_Push_5" .target "target" .push 3 .chance 120%	.on_hit true .on_miss false .can_apply_on_death true .queue false
+effect: .name "Missionary_Mortifier_Push_1" .target "target" .push 2 .chance 80%	.on_hit true .on_miss false .can_apply_on_death true .queue false
+effect: .name "Missionary_Mortifier_Push_2" .target "target" .push 2 .chance 90%	.on_hit true .on_miss false .can_apply_on_death true .queue false
+effect: .name "Missionary_Mortifier_Push_3" .target "target" .push 2 .chance 100%	.on_hit true .on_miss false .can_apply_on_death true .queue false
+effect: .name "Missionary_Mortifier_Push_4" .target "target" .push 2 .chance 110%	.on_hit true .on_miss false .can_apply_on_death true .queue false
+effect: .name "Missionary_Mortifier_Push_5" .target "target" .push 2 .chance 120%	.on_hit true .on_miss false .can_apply_on_death true .queue false
 
 effect: .name "Missionary_Mortifier_Forward" .target "performer" .pull 3 .chance 5000% .on_hit true .on_miss true .can_apply_on_death true .queue false
 effect: .name "Missionary_Mortifier_Travelled_Distance_Multiplier" .target "performer" .chance 100% .skill_instant true .buff_ids "MISS_MORTIFIER_RANK4_STUN_CHANCE" "MISS_MORTIFIER_RANK3_STUN_CHANCE" "MISS_MORTIFIER_RANK2_STUN_CHANCE" "MISS_MORTIFIER_RANK4_MOVE_CHANCE" "MISS_MORTIFIER_RANK3_MOVE_CHANCE" "MISS_MORTIFIER_RANK2_MOVE_CHANCE" .on_hit true .on_miss false .has_description false

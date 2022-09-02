@@ -242,7 +242,7 @@
 					"chance" : { "code" : "b", "amount": 1.0 },
                     "type": "stress_heal_amount",
                     "sub_type" : "",
-					"amount" : 15
+					"amount" : 12
 				},
 				{ 
 					"selection" : "self",
@@ -250,7 +250,7 @@
 					"chance" : { "code" : "c", "amount": 1.0 },
                     "type": "stress_heal_amount",
                     "sub_type" : "",
-					"amount" :  15
+					"amount" :  12
 				}
 			],
 			"hero_classes" : ["missionary"],
