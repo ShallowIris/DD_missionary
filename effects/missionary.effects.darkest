@@ -9,8 +9,10 @@ effect: .name "missionary_on_crit_mark" .target "performer".chance 100% .buff_so
 //skills
 
 effect: .name "Missionary_Mark_Performer_50p" .target "performer" .chance 50% .tag 1 .duration 3 .on_hit true .on_miss true .apply_once true
+effect: .name "Missionary_Mark_Performer_50p_nodesc" .target "performer" .chance 50% .tag 1 .duration 3 .on_hit true .on_miss true .apply_once true .has_description false
 
 //hosticide
+
 
 effect: .name "Missionary_Hosticide_Bleed_1" .target "target" .chance 100% .dotBleed 3 .duration 3 .on_hit true .on_miss false
 effect: .name "Missionary_Hosticide_Bleed_2" .target "target" .chance 110% .dotBleed 3 .duration 3 .on_hit true .on_miss false
@@ -24,7 +26,9 @@ effect: .name "Missionary_Hosticide_Effect_3" .target "target" .chance 110% .buf
 effect: .name "Missionary_Hosticide_Effect_4" .target "target" .chance 120% .buff_ids "MISS_DMG_REC_BLEEDING_4" .on_hit true .on_miss false
 effect: .name "Missionary_Hosticide_Effect_5" .target "target" .chance 130% .buff_ids "MISS_DMG_REC_BLEEDING_5" .on_hit true .on_miss false
 
-effect: .name "Missionary_Hosticide_Clear_Riposte_Buff" .target "performer" .chance 100% .steal_buff_source_type bsrc_companion .on_hit true .on_miss false
+effect: .name "Missionary_Hosticide_Clear_Riposte_Buff" .target "performer" .chance 100% .steal_buff_source_type bsrc_companion .on_hit true .on_miss false .has_description false
+effect: .name "Missionary_Hosticide_TT_1" .target "performer" .skill_instant true .chance 100% .buff_ids "MISS_HOSTICIDE_TOOLTIP_1" .on_hit true .on_miss true
+effect: .name "Missionary_Hosticide_TT_2" .target "performer" .skill_instant true .chance 100% .buff_ids "MISS_HOSTICIDE_TOOLTIP_2" .on_hit true .on_miss true
 
 //martyrdom
 
@@ -55,9 +59,11 @@ effect: .name "Missionary_Mortifier_Push_3" .target "target" .push 2 .chance 100
 effect: .name "Missionary_Mortifier_Push_4" .target "target" .push 2 .chance 110%	.on_hit true .on_miss false .can_apply_on_death true .queue false
 effect: .name "Missionary_Mortifier_Push_5" .target "target" .push 2 .chance 120%	.on_hit true .on_miss false .can_apply_on_death true .queue false
 
-effect: .name "Missionary_Mortifier_Forward" .target "performer" .pull 3 .chance 5000% .on_hit true .on_miss true .can_apply_on_death true .queue false
+effect: .name "Missionary_Mortifier_Forward" .target "performer" .pull 3 .chance 5000% .on_hit true .on_miss true .can_apply_on_death true .queue false .has_description false
 effect: .name "Missionary_Mortifier_Travelled_Distance_Multiplier" .target "performer" .chance 100% .skill_instant true .buff_ids "MISS_MORTIFIER_RANK4_STUN_CHANCE" "MISS_MORTIFIER_RANK3_STUN_CHANCE" "MISS_MORTIFIER_RANK2_STUN_CHANCE" "MISS_MORTIFIER_RANK4_MOVE_CHANCE" "MISS_MORTIFIER_RANK3_MOVE_CHANCE" "MISS_MORTIFIER_RANK2_MOVE_CHANCE" .on_hit true .on_miss false .has_description false
-effect: .name "Missionary_Mortifier_Travelled_Distance_TT" .target "performer" .skill_instant true .chance 100% .buff_ids "MISS_MORTIFIER_DISTANCE_TT"  .on_hit true .on_miss true
+effect: .name "Missionary_Mortifier_TT_1" .target "performer" .skill_instant true .chance 100% .buff_ids "MISS_MORTIFIER_TOOLTIP_1" .on_hit true .on_miss true
+effect: .name "Missionary_Mortifier_TT_2" .target "performer" .skill_instant true .chance 100% .buff_ids "MISS_MORTIFIER_TOOLTIP_2" .on_hit true .on_miss true
+
 //Clamant
 
 effect: .name "Missionary_Clamant_Effect_1" .target "target" .chance 100% .buff_ids "MISS_CLAMANT_MOVE_CHANCE_DEBUFF_1" "MISS_CLAMANT_DEBUFF_CHANCE_DEBUFF_1" "MISS_CLAMANT_STUN_CHANCE_DEBUFF_1" .on_hit true .on_miss false .queue true
@@ -74,13 +80,13 @@ effect: .name "Missionary_Dogma_Effect_3" .target "target" .chance 100% .buff_id
 effect: .name "Missionary_Dogma_Effect_4" .target "target" .chance 100% .buff_ids "MISS_DOGMA_HORROR_DUR_BUFF" "MISS_DOGMA_STRESS_RECEIVED_BUFF_4" .on_hit true .on_miss false
 effect: .name "Missionary_Dogma_Effect_5" .target "target" .chance 100% .buff_ids "MISS_DOGMA_HORROR_DUR_BUFF" "MISS_DOGMA_STRESS_RECEIVED_BUFF_5" .on_hit true .on_miss false
 
-effect: .name "Missionary_Dogma_Stressheal_1" .target "target" .chance 100% .healstress 6 .on_hit true .on_miss true
-effect: .name "Missionary_Dogma_Stressheal_2" .target "target" .chance 100% .healstress 6 .on_hit true .on_miss true
-effect: .name "Missionary_Dogma_Stressheal_3" .target "target" .chance 100% .healstress 7 .on_hit true .on_miss true
-effect: .name "Missionary_Dogma_Stressheal_4" .target "target" .chance 100% .healstress 7 .on_hit true .on_miss true
-effect: .name "Missionary_Dogma_Stressheal_5" .target "target" .chance 100% .healstress 8 .on_hit true .on_miss true
+effect: .name "Missionary_Dogma_Stressheal_1" .target "target" .chance 100% .healstress 6 .on_hit true .on_miss true .has_description false
+effect: .name "Missionary_Dogma_Stressheal_2" .target "target" .chance 100% .healstress 6 .on_hit true .on_miss true .has_description false
+effect: .name "Missionary_Dogma_Stressheal_3" .target "target" .chance 100% .healstress 7 .on_hit true .on_miss true .has_description false
+effect: .name "Missionary_Dogma_Stressheal_4" .target "target" .chance 100% .healstress 7 .on_hit true .on_miss true .has_description false
+effect: .name "Missionary_Dogma_Stressheal_5" .target "target" .chance 100% .healstress 8 .on_hit true .on_miss true .has_description false
 
-effect: .name "Missionary_Dogma_Light" .target "global" .chance 100% .torch_increase 20	.on_hit true .on_miss true .apply_once true .queue true 
+effect: .name "Missionary_Dogma_Light" .target "global" .chance 100% .torch_increase 20	.on_hit true .on_miss true .apply_once true .queue true .has_description false
 
 effect: .name "Missionary_Dogma_Cooldown" .target "performer" .skill_instant true .chance 100% .buff_ids "MISS_DOGMA_COOLDOWN_TOOLTIP"  .on_hit true .on_miss true .apply_once true
 effect: .name "Missionary_Dogma_Cooldown_Tooltip" .target "target" .chance 1000% .duration 999 .buff_ids "MISS_DOGMA_UHH_COOLDOWN_TOOLTIP" "MISS_DOGMA_COOLDOWN_DISABLE"  .on_hit true .on_miss true .apply_once true .has_description false .swap_source_and_target true
@@ -91,7 +97,7 @@ effect: .name "Missionary_Dogma_FakeStress" .target "target" .chance 100% .stres
 
 effect: .name "Missionary_Dome_Guard" .target "performer_group_other" .chance 100% .guard 1 .duration 3 .on_hit true .on_miss true .queue true
 
-effect: .name "Missionary_Dome_Cooldown" .target "performer" .chance 100% .buff_ids "MISS_DOME_COOLDOWN_BUFF" .duration 4 .on_hit true .on_miss true .queue true
+effect: .name "Missionary_Dome_Cooldown" .target "performer" .chance 100% .buff_ids "MISS_DOME_COOLDOWN_BUFF" .duration 4 .on_hit true .on_miss true .queue true .apply_once true .has_description false
 
 effect: .name "Missionary_Dome_Effect_1" .target "performer" .chance 100% .buff_ids "MISS_DOME_MARKED_PROT_BUFF_1" .duration 3 .apply_once true .on_hit true .on_miss true .queue true
 effect: .name "Missionary_Dome_Effect_2" .target "performer" .chance 100% .buff_ids "MISS_DOME_MARKED_PROT_BUFF_2" .duration 3 .apply_once true .on_hit true .on_miss true .queue true
@@ -99,17 +105,21 @@ effect: .name "Missionary_Dome_Effect_3" .target "performer" .chance 100% .buff_
 effect: .name "Missionary_Dome_Effect_4" .target "performer" .chance 100% .buff_ids "MISS_DOME_MARKED_PROT_BUFF_4" .duration 3 .apply_once true .on_hit true .on_miss true .queue true
 effect: .name "Missionary_Dome_Effect_5" .target "performer" .chance 100% .buff_ids "MISS_DOME_MARKED_PROT_BUFF_5" .duration 3 .apply_once true .on_hit true .on_miss true .queue true
 
-effect: .name "Missionary_Dome_Riposte_Buff_1" .target "performer" .chance 100% .duration 3 .buff_ids MISS_DOME_DEBUFF_BUFF_1 .on_hit true .on_miss true .apply_once true
-effect: .name "Missionary_Dome_Riposte_Buff_2" .target "performer" .chance 100% .duration 3 .buff_ids MISS_DOME_DEBUFF_BUFF_2 .on_hit true .on_miss true .apply_once true
-effect: .name "Missionary_Dome_Riposte_Buff_3" .target "performer" .chance 100% .duration 3 .buff_ids MISS_DOME_DEBUFF_BUFF_3 .on_hit true .on_miss true .apply_once true
-effect: .name "Missionary_Dome_Riposte_Buff_4" .target "performer" .chance 100% .duration 3 .buff_ids MISS_DOME_DEBUFF_BUFF_4 .on_hit true .on_miss true .apply_once true
-effect: .name "Missionary_Dome_Riposte_Buff_5" .target "performer" .chance 100% .duration 3 .buff_ids MISS_DOME_DEBUFF_BUFF_5 .on_hit true .on_miss true .apply_once true
+effect: .name "Missionary_Dome_Riposte_Buff_1" .target "performer" .chance 100% .duration 3 .buff_ids MISS_DOME_DEBUFF_BUFF_1 .on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "Missionary_Dome_Riposte_Buff_2" .target "performer" .chance 100% .duration 3 .buff_ids MISS_DOME_DEBUFF_BUFF_2 .on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "Missionary_Dome_Riposte_Buff_3" .target "performer" .chance 100% .duration 3 .buff_ids MISS_DOME_DEBUFF_BUFF_3 .on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "Missionary_Dome_Riposte_Buff_4" .target "performer" .chance 100% .duration 3 .buff_ids MISS_DOME_DEBUFF_BUFF_4 .on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "Missionary_Dome_Riposte_Buff_5" .target "performer" .chance 100% .duration 3 .buff_ids MISS_DOME_DEBUFF_BUFF_5 .on_hit true .on_miss true .apply_once true .has_description false
 
-effect: .name "Missionary_Dome_Riposte_1"  .target "performer" .chance 100% .duration 3 .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .on_hit true .on_miss true .damage_low_multiply -200%  .damage_high_multiply -200% .attack_rating_add 0 .crit_chance_add 0% .apply_once true
-effect: .name "Missionary_Dome_Riposte_2"  .target "performer" .chance 100% .duration 3 .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .on_hit true .on_miss true .damage_low_multiply -200%  .damage_high_multiply -200% .attack_rating_add 0.05 .crit_chance_add 1% .apply_once true
-effect: .name "Missionary_Dome_Riposte_3"  .target "performer" .chance 100% .duration 3 .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .on_hit true .on_miss true .damage_low_multiply -200%  .damage_high_multiply -200% .attack_rating_add 0.1 .crit_chance_add 2% .apply_once true
-effect: .name "Missionary_Dome_Riposte_4"  .target "performer" .chance 100% .duration 3 .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .on_hit true .on_miss true .damage_low_multiply -200%  .damage_high_multiply -200% .attack_rating_add 0.15 .crit_chance_add 3% .apply_once true
-effect: .name "Missionary_Dome_Riposte_5"  .target "performer" .chance 100% .duration 3 .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .on_hit true .on_miss true .damage_low_multiply -200%  .damage_high_multiply -200% .attack_rating_add 0.2 .crit_chance_add 4% .apply_once true
+effect: .name "Missionary_Dome_Riposte_1"  .target "performer" .chance 100% .duration 3 .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .on_hit true .on_miss true .damage_low_multiply -200%  .damage_high_multiply -200% .attack_rating_add 0 .crit_chance_add 0% .apply_once true .has_description false
+effect: .name "Missionary_Dome_Riposte_2"  .target "performer" .chance 100% .duration 3 .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .on_hit true .on_miss true .damage_low_multiply -200%  .damage_high_multiply -200% .attack_rating_add 0.05 .crit_chance_add 1% .apply_once true .has_description false
+effect: .name "Missionary_Dome_Riposte_3"  .target "performer" .chance 100% .duration 3 .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .on_hit true .on_miss true .damage_low_multiply -200%  .damage_high_multiply -200% .attack_rating_add 0.1 .crit_chance_add 2% .apply_once true .has_description false
+effect: .name "Missionary_Dome_Riposte_4"  .target "performer" .chance 100% .duration 3 .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .on_hit true .on_miss true .damage_low_multiply -200%  .damage_high_multiply -200% .attack_rating_add 0.15 .crit_chance_add 3% .apply_once true .has_description false
+effect: .name "Missionary_Dome_Riposte_5"  .target "performer" .chance 100% .duration 3 .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .on_hit true .on_miss true .damage_low_multiply -200%  .damage_high_multiply -200% .attack_rating_add 0.2 .crit_chance_add 4% .apply_once true .has_description false
+
+effect: .name "Missionary_Dome_TT_1" .target "performer" .skill_instant true .chance 100% .buff_ids "MISS_DOME_TOOLTIP_1" .on_hit true .on_miss true
+effect: .name "Missionary_Dome_TT_2" .target "performer" .chance 100% .buff_ids "MISS_DOME_TOOLTIP_2" .on_hit true .on_miss true
+effect: .name "Missionary_Dome_TT_3" .target "performer" .chance 100% .buff_ids "MISS_DOME_TOOLTIP_3" .on_hit true .on_miss true
 
 //Corpus
 

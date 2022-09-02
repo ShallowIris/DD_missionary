@@ -19,19 +19,25 @@
 	
 	
 	<entry id="combat_skill_name_missionary_missionary_hosticide"><![CDATA[Hosticide]]></entry>
-    <entry id="combat_skill_name_missionary_missionary_martyrdom"><![CDATA[Martyrdom]]></entry>
+    <entry id="combat_skill_name_missionary_missionary_martyrdom"><![CDATA[{colour_start|MISS_friendly_target} ¤ ¤ ¤ ¤{colour_end}
+Martyrdom]]></entry>
     <entry id="combat_skill_name_missionary_missionary_mortifer"><![CDATA[Mortifer]]></entry>
     <entry id="combat_skill_name_missionary_missionary_clamant"><![CDATA[Clamant]]></entry>
-    <entry id="combat_skill_name_missionary_missionary_dogma"><![CDATA[Recite Dogma]]></entry>
-    <entry id="combat_skill_name_missionary_missionary_dome"><![CDATA[Blind Faith]]></entry>
+    <entry id="combat_skill_name_missionary_missionary_dogma"><![CDATA[{colour_start|MISS_friendly_target} ¤¦¤¦¤¦¤{colour_end}
+Recite Dogma]]></entry>
+    <entry id="combat_skill_name_missionary_missionary_dome"><![CDATA[{colour_start|MISS_friendly_target} ¤¦¤¦¤¦¤{colour_end}
+Blind Faith]]></entry>
     <entry id="combat_skill_name_missionary_missionary_corpus"><![CDATA[Corpus Luceat]]></entry>
     <entry id="combat_skill_name_missionary_move"><![CDATA[Move]]></entry>
     <entry id="upgrade_tree_name_missionary.missionary_hosticide"><![CDATA[Hosticide]]></entry>
-    <entry id="upgrade_tree_name_missionary.missionary_martyrdom"><![CDATA[Martyrdom]]></entry>
+    <entry id="upgrade_tree_name_missionary.missionary_martyrdom"><![CDATA[{colour_start|MISS_friendly_target} ¤ ¤ ¤ ¤{colour_end}
+Martyrdom]]></entry>
     <entry id="upgrade_tree_name_missionary.missionary_mortifer"><![CDATA[Mortifer]]></entry>
     <entry id="upgrade_tree_name_missionary.missionary_clamant"><![CDATA[Clamant]]></entry>
-    <entry id="upgrade_tree_name_missionary.missionary_dogma"><![CDATA[Recite Dogma]]></entry>
-    <entry id="upgrade_tree_name_missionary.missionary_dome"><![CDATA[Blind Faith]]></entry>
+    <entry id="upgrade_tree_name_missionary.missionary_dogma"><![CDATA[{colour_start|MISS_friendly_target} ¤¦¤¦¤¦¤{colour_end}
+Recite Dogma]]></entry>
+    <entry id="upgrade_tree_name_missionary.missionary_dome"><![CDATA[{colour_start|MISS_friendly_target} ¤¦¤¦¤¦¤{colour_end}
+Blind Faith]]></entry>
     <entry id="upgrade_tree_name_missionary.missionary_corpus"><![CDATA[Corpus Luceat]]></entry>
 	
     <entry id="camping_skill_name_requiem_aeternam"><![CDATA[REQUIEM AETERNAM]]></entry>
@@ -46,7 +52,23 @@
 	<!--trinkets-->
 	
 	<!--tooltips-->
-	
+	<entry id="buff_stat_tooltip_upgrade_discount_MISS_DOGMA_COOLDOWN_TOOLTIP"><![CDATA[{colour_start|notable}Cooldown: 999 rds{colour_end}
+{colour_start|stress}Stress{colour_end} -8
+Torch +20]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_MISS_HOSTICIDE_TOOLTIP_1"><![CDATA[Self:
+{colour_start|mark}Mark{colour_end} Target (50%% chance)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_MISS_HOSTICIDE_TOOLTIP_2"><![CDATA[Remove {colour_start|bleed}Bleed{colour_end} Amount Buff]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_MISS_MORTIFIER_TOOLTIP_1"><![CDATA[Per Rank Travelled: {colour_start|stun}Stun{colour_end} / {colour_start|move}Move{colour_end} Chance +20%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_MISS_MORTIFIER_TOOLTIP_2"><![CDATA[Self:
+{colour_start|mark}Mark{colour_end} Target (50%% chance)
+{colour_start|move}Forward{colour_end} 3]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_MISS_DOME_TOOLTIP_1"><![CDATA[{colour_start|notable}Cooldown: 3 rds
+Shared Cooldown with Martyrdom{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_MISS_DOME_TOOLTIP_2"><![CDATA[Activate {colour_start|riposte}Riposte{colour_end}
+{colour_start|riposte}Riposte:{colour_end} DMG -200%% / ACC 90 / CRIT 0%%]]></entry>
+<entry id="buff_stat_tooltip_upgrade_discount_MISS_DOME_TOOLTIP_3"><![CDATA[{colour_start|buff}Buff Self:{colour_end} {colour_start|bleed}Bleed{colour_end} Amount +20%%
+{colour_start|debuff}Debuff Target:{colour_end} {colour_start|bleed}Bleed{colour_end} Resist -20%%]]></entry>
+
 	<!--town events-->
 	
 	<!--boss reaction barks-->

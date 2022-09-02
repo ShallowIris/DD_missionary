@@ -209,19 +209,6 @@
               "string" : ""
          }
      },
-	  	  {
-         "id" : "MISS_MORTIFIER_DISTANCE_TT",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "MISS_MORTIFIER_DISTANCE_TT",
-         "amount" : 0,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
 	  {
          "id" : "MISS_CLAMANT_STUN_CHANCE_DEBUFF_1",
          "stat_type" : "stun_chance",
@@ -503,34 +490,6 @@
          }
       },
 	  	{
-         "id" : "MISS_DOGMA_COOLDOWN_TOOLTIP",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "MISS_DOGMA_COOLDOWN_TOOLTIP",
-         "amount" : 0,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  	{
-         "id" : "MISS_DOGMA_UHH_COOLDOWN_TOOLTIP",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "MISS_DOGMA_UHH_COOLDOWN_TOOLTIP",
-         "amount" : 0,
-		 "remove_on_battle_complete" : true,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         },
-		 "is_clear_debuff_valid": false
-      },
-	  	   {
          "id" : "MISS_DOGMA_COOLDOWN_DISABLE",
          "stat_type" : "disable_combat_skill_attribute",
          "stat_sub_type" : "stress",

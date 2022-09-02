@@ -1,0 +1,124 @@
+{
+   "buffs":
+   [
+      {
+         "id" : "MISS_HOSTICIDE_TOOLTIP_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "MISS_HOSTICIDE_TOOLTIP_1",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "MISS_HOSTICIDE_TOOLTIP_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "MISS_HOSTICIDE_TOOLTIP_2",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "MISS_MORTIFIER_TOOLTIP_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "MISS_MORTIFIER_TOOLTIP_1",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "MISS_MORTIFIER_TOOLTIP_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "MISS_MORTIFIER_TOOLTIP_2",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "MISS_DOME_TOOLTIP_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "MISS_DOME_TOOLTIP_1",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "MISS_DOME_TOOLTIP_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "MISS_DOME_TOOLTIP_2",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "MISS_DOME_TOOLTIP_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "MISS_DOME_TOOLTIP_3",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "MISS_DOGMA_COOLDOWN_TOOLTIP",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "MISS_DOGMA_COOLDOWN_TOOLTIP",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	{
+         "id" : "MISS_DOGMA_UHH_COOLDOWN_TOOLTIP",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "MISS_DOGMA_UHH_COOLDOWN_TOOLTIP",
+         "amount" : -1,
+		 "remove_on_battle_complete" : true,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "is_clear_debuff_valid": false
+      }
+	]
+}
