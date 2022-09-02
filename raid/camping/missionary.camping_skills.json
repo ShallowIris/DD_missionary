@@ -232,6 +232,14 @@
 					"selection" : "self",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
+                    "type": "stress_heal_amount",
+                    "sub_type" : "",
+					"amount" :  12
+				},
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 },
                     "type": "buff",
                     "sub_type" : "MISS_CAMP_STRESS_HEAL_BUFF",
 					"amount" :  0.25
@@ -239,18 +247,10 @@
 				{ 
 					"selection" : "individual",
 					"requirements" : [],
-					"chance" : { "code" : "b", "amount": 1.0 },
-                    "type": "stress_heal_amount",
-                    "sub_type" : "",
-					"amount" : 12
-				},
-				{ 
-					"selection" : "self",
-					"requirements" : [],
 					"chance" : { "code" : "c", "amount": 1.0 },
                     "type": "stress_heal_amount",
                     "sub_type" : "",
-					"amount" :  12
+					"amount" : 9
 				}
 			],
 			"hero_classes" : ["missionary"],
