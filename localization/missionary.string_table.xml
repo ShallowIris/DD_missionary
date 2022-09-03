@@ -52,9 +52,11 @@ Blind Faith]]></entry>
 	<!--trinkets-->
 	
 	<!--tooltips-->
-	<entry id="buff_stat_tooltip_upgrade_discount_MISS_DOGMA_COOLDOWN_TOOLTIP"><![CDATA[{colour_start|notable}Cooldown: 999 rds{colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_MISS_DOGMA_COOLDOWN_TOOLTIP"><![CDATA[{colour_start|notable}Uses per Battle: 1
+Can't Be Refreshed{colour_end}
 {colour_start|stress}Stress{colour_end} -8
 Torch +20]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_MISS_DOGMA_UHH_COOLDOWN_TOOLTIP"><![CDATA[{colour_start|notable}Recite Dogma: Can't Be Used{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_MISS_HOSTICIDE_TOOLTIP_1"><![CDATA[Self:
 {colour_start|mark}Mark{colour_end} Target (50%% chance)]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_MISS_HOSTICIDE_TOOLTIP_2"><![CDATA[Remove {colour_start|bleed}Bleed{colour_end} Amount Buff]]></entry>

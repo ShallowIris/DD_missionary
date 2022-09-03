@@ -89,7 +89,7 @@ effect: .name "Missionary_Dogma_Stressheal_5" .target "target" .chance 100% .hea
 effect: .name "Missionary_Dogma_Light" .target "global" .chance 100% .torch_increase 20	.on_hit true .on_miss true .apply_once true .queue true .has_description false
 
 effect: .name "Missionary_Dogma_Cooldown" .target "performer" .skill_instant true .chance 100% .buff_ids "MISS_DOGMA_COOLDOWN_TOOLTIP"  .on_hit true .on_miss true .apply_once true
-effect: .name "Missionary_Dogma_Cooldown_Tooltip" .target "target" .chance 1000% .duration 999 .buff_ids "MISS_DOGMA_UHH_COOLDOWN_TOOLTIP" "MISS_DOGMA_COOLDOWN_DISABLE"  .on_hit true .on_miss true .apply_once true .has_description false .swap_source_and_target true
+effect: .name "Missionary_Dogma_Cooldown_Tooltip" .target "target" .chance 1000% .duration 1 .buff_duration_type combat_end .buff_ids "MISS_DOGMA_UHH_COOLDOWN_TOOLTIP" "MISS_DOGMA_COOLDOWN_DISABLE"  .on_hit true .on_miss true .apply_once true .has_description false .swap_source_and_target true
 
 effect: .name "Missionary_Dogma_FakeStress" .target "target" .chance 100% .stress 1 .on_hit false .on_miss false .has_description false
 
