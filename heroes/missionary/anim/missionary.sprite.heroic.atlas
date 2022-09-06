@@ -1,27 +1,27 @@
 
 missionary.sprite.heroic.png
-size: 1345,2131
+size: 3279,1784
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-background
+Layer 4
   rotate: false
-  xy: 2, 1002
-  size: 1341, 1127
-  orig: 1341, 1127
+  xy: 2076, 512
+  size: 1201, 1270
+  orig: 1201, 1270
   offset: 0, 0
   index: -1
-halo
-  rotate: false
-  xy: 1001, 702
-  size: 309, 298
-  orig: 309, 298
-  offset: 0, 0
-  index: -1
-heroic
+Layer5
   rotate: false
   xy: 2, 2
-  size: 997, 998
-  orig: 997, 998
+  size: 2072, 1780
+  orig: 2072, 1780
+  offset: 0, 0
+  index: -1
+Layer6
+  rotate: false
+  xy: 2076, 56
+  size: 471, 454
+  orig: 471, 454
   offset: 0, 0
   index: -1

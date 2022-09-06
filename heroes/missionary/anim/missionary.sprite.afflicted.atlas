@@ -1,27 +1,27 @@
 
 missionary.sprite.afflicted.png
-size: 2091,1131
+size: 1728,2249
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-afflicted
+a2
   rotate: true
-  xy: 1345, 323
-  size: 806, 744
-  orig: 806, 744
-  offset: 0, 0
-  index: -1
-background
-  rotate: false
   xy: 2, 2
-  size: 1341, 1127
-  orig: 1341, 1127
+  size: 806, 1063
+  orig: 806, 1063
   offset: 0, 0
   index: -1
-crown
+a3
   rotate: false
-  xy: 1345, 28
-  size: 369, 293
-  orig: 369, 293
+  xy: 1067, 343
+  size: 582, 465
+  orig: 582, 465
+  offset: 0, 0
+  index: -1
+a4
+  rotate: false
+  xy: 2, 810
+  size: 1724, 1437
+  orig: 1724, 1437
   offset: 0, 0
   index: -1
