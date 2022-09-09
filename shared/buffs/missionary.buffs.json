@@ -428,6 +428,7 @@
          "rule_type" : "always",
          "is_false_rule" : false,
 		   "duration_type" : "combat_end",
+         "duration" : 1,
          "rule_data" : {
             "float" : 0,
             "string" : ""
@@ -442,6 +443,7 @@
          "rule_type" : "always",
          "is_false_rule" : false,
 		   "duration_type" : "combat_end",
+         "duration" : 1,
          "rule_data" : {
             "float" : 0,
             "string" : ""
@@ -456,6 +458,7 @@
          "rule_type" : "always",
          "is_false_rule" : false,
 		   "duration_type" : "combat_end",
+         "duration" : 1,
          "rule_data" : {
             "float" : 0,
             "string" : ""
@@ -470,6 +473,7 @@
          "rule_type" : "always",
          "is_false_rule" : false,
 		   "duration_type" : "combat_end",
+         "duration" : 1,
          "rule_data" : {
             "float" : 0,
             "string" : ""
@@ -484,6 +488,7 @@
          "rule_type" : "always",
          "is_false_rule" : false,
 		   "duration_type" : "combat_end",
+         "duration" : 1,
          "rule_data" : {
             "float" : 0,
             "string" : ""

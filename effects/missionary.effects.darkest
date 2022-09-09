@@ -137,11 +137,11 @@ effect: .name "Missionary_Corpus_Effect_3" .target "performer" .chance 100% .buf
 effect: .name "Missionary_Corpus_Effect_4" .target "performer" .chance 100% .buff_ids "MISS_CORPUS_SPD_BUFF_4" .on_hit true .on_miss false .queue true
 effect: .name "Missionary_Corpus_Effect_5" .target "performer" .chance 100% .buff_ids "MISS_CORPUS_SPD_BUFF_5" .on_hit true .on_miss false .queue true
 
-effect: .name "Missionary_Corpus_HoT_1" .target "performer" .chance 100% .dotHpHeal 4 .duration 1 .on_hit true .on_miss true
-effect: .name "Missionary_Corpus_HoT_2" .target "performer" .chance 100% .dotHpHeal 5 .duration 1 .on_hit true .on_miss true
-effect: .name "Missionary_Corpus_HoT_3" .target "performer" .chance 100% .dotHpHeal 6 .duration 1 .on_hit true .on_miss true
-effect: .name "Missionary_Corpus_HoT_4" .target "performer" .chance 100% .dotHpHeal 7 .duration 1 .on_hit true .on_miss true
-effect: .name "Missionary_Corpus_HoT_5" .target "performer" .chance 100% .dotHpHeal 8 .duration 1 .on_hit true .on_miss true
+effect: .name "Missionary_Corpus_HoT_1" .target "performer" .chance 100% .dotHpHeal 4 .duration 1 .on_hit true .on_miss true .queue true
+effect: .name "Missionary_Corpus_HoT_2" .target "performer" .chance 100% .dotHpHeal 5 .duration 1 .on_hit true .on_miss true .queue true
+effect: .name "Missionary_Corpus_HoT_3" .target "performer" .chance 100% .dotHpHeal 6 .duration 1 .on_hit true .on_miss true .queue true
+effect: .name "Missionary_Corpus_HoT_4" .target "performer" .chance 100% .dotHpHeal 7 .duration 1 .on_hit true .on_miss true .queue true
+effect: .name "Missionary_Corpus_HoT_5" .target "performer" .chance 100% .dotHpHeal 8 .duration 1 .on_hit true .on_miss true .queue true
 
 effect: .name "Missionary_Corpus_Clear_Marked_Target" .target "performer" .chance 100% .untag 1	.on_hit true .on_miss true
 
