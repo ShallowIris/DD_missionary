@@ -149,3 +149,15 @@ effect: .name "Missionary_Corpus_Clear_Marked_Target" .target "performer" .chanc
 
 effect: .name "Missionary_Riposte_BleedRes_Debuff_Target" .target "target" .chance 100% .buff_ids "MISS_RIPOSTE_BLEEDRESIST_DEBUFF" .on_hit true .on_miss false
 effect: .name "Missionary_Riposte_BleedAmount_Buff_Self" .target "performer" .chance 100% .duration 1 .buff_duration_type combat_end .buff_ids "MISS_RIPOSTE_BLEEDAMOUNT_BUFF" .on_hit true .on_miss true .buff_source_type bsrc_companion
+
+// Trinkets
+
+effect: .name "Missionary_Trinket_Rare_Stress_50p" .target "performer" .chance 50% .stress 3 .on_hit true .on_miss false .queue true .crit_doesnt_apply_to_roll true .apply_once true
+effect: .name "Missionary_Trinket_Very_Rare_Cure_0p" .target "performer" .chance 0% .cure_bleed 1 .cure_poison 1 .on_hit true .on_miss true .queue false
+effect: .name "Missionary_Trinket_Nightmare_Stressbuff_100p" .target "performer" .chance 100% .duration 4 .buff_ids "TRINKET_MISS_STRESSRECV_B" .on_hit true .on_miss false
+effect: .name "Missionary_Trinket_Nightmare_Mark_50p" .target "performer" .chance 50% .tag 1 .duration 3 .on_hit true .on_miss false
+effect: .name "Missionary_Trinket_Bleed_160p" .target "target" .chance 160% .dotBleed 1 .duration 3 .on_hit true .on_miss true
+effect: .name "Missionary_Trinket_Bleed_Amount_Buff_100p" .target "performer" .chance 100% .duration 3 .buff_ids "TRINKET_MISS_BLEEDAMOUNT_B" .on_hit true .on_miss true
+effect: .name "Missionary_Trinket_Perfgroupother_Steal_Bleed"  .target "performer_group_other" .chance 100% .steal_buff_stat_type hp_dot_bleed .on_hit true .on_miss true
+effect: .name "Missionary_Trinket_Targetgroup_Steal_Bleed"  .target "target_group" .chance 100% .steal_buff_stat_type hp_dot_bleed .on_hit true .on_miss true
+effect: .name "Missionary_Trinket_Targetenemygroup_Steal_Bleed"  .target "target_enemy_group" .chance 100% .steal_buff_stat_type hp_dot_bleed .on_hit true .on_miss true

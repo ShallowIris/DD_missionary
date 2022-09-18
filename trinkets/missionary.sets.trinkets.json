@@ -1,0 +1,17 @@
+{
+   "sets":
+   [
+      {
+         "id" : "missionary_nightmare",
+         "buffs" : 
+         [
+            "SET_MISS_GUARDDUR_MARKED_B",
+            "SET_MISS_GUARDDUR_BLEEDING_B"
+         ]
+      },
+      {
+         "id" : "missionary_shard_flavor",
+         "buffs" : []
+      }
+   ]
+}

@@ -1,0 +1,172 @@
+{
+   "entries":
+   [
+      {
+         "id" : "missionary_common",
+         "buffs" : 
+         [
+            "STUNRESIST20",
+            "MOVERESIST20",
+            "BLEEDRESIST-10"
+         ],
+         "hero_class_requirements":
+         [
+            "missionary"
+         ],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "missionary_uncommon",
+         "buffs" : 
+         [
+            "TRINKET_MISS_BLEED_B",
+            "TRINKET_MISS_CRT_vsBLEED_B",
+            "TRINKET_MISS_BLEED_RECEIVED_DUR_D"
+         ],
+         "hero_class_requirements":
+         [
+            "missionary"
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+	   {
+         "id" : "missionary_rare",
+         "buffs" : 
+         [
+            "SPD4",
+            "TRINKET_MISS_DEBUFF_B"
+         ],
+         "hero_class_requirements":
+         [
+            "missionary"
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+         "attack_skill_additional_effects": [ "Missionary_Trinket_Rare_Stress_50p" ]
+      },
+	   {
+         "id" : "missionary_very_rare",
+         "buffs" : 
+         [
+            "TRINKET_MISS_HEALING_B",
+            "TRINKET_MISS_STRESSHEAL_B",
+            "TRINKET_MISS_CORPUS_CUREBLEED_B",
+            "TRINKET_MISS_CORPUS_CUREBLIGHT_B"
+         ],
+         "hero_class_requirements":
+         [
+            "missionary"
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+         "friendly_skill_additional_effects": [ "Missionary_Trinket_Very_Rare_Cure_0p" ]
+      },
+	   {
+         "id" : "missionary_nightmare_1",
+         "buffs" : 
+         [
+            "TRINKET_MISS_CRITRECV_B"
+         ],
+         "hero_class_requirements":
+         [
+            "missionary"
+         ],
+		   "set_id" : "missionary_nightmare",
+         "rarity" : "crimson_court",
+         "price" : 0,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard",
+         "was_hit_additional_effects" : [ "Missionary_Trinket_Nightmare_Stressbuff_100p", "Missionary_Trinket_Nightmare_Mark_50p" ]
+      },
+	   {
+         "id" : "missionary_nightmare_2",
+         "buffs" : 
+         [
+            "TRINKET_MISS_DEBUFF_WHILEMARKED_B",
+            "TRINKET_MISS_MOVE_WHILEMARKED_B",
+            "TRINKET_MISS_HEALRECV_WHILEMARKED_B"
+         ],
+         "hero_class_requirements":
+         [
+            "missionary"
+         ],
+		   "set_id" : "missionary_nightmare",
+         "rarity" : "crimson_court",
+         "price" : 0,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+	   {
+         "id" : "missionary_shard",
+         "buffs" : 
+         [            
+			   "TRINKET_MISS_MAXHP_B"
+         ],
+         "hero_class_requirements":
+         [
+            "missionary"
+         ],
+         "set_id" : "missionary_shard_flavor",
+         "rarity" : "comet",
+         "shard" : 45,
+         "limit" : 1,
+         "origin_dungeon" : "",
+         "was_hit_additional_effects" : [ "Missionary_Trinket_Bleed_160p" ],
+         "riposte_skill_additional_effects": [ "Missionary_Trinket_Bleed_Amount_Buff_100p" ]
+      },
+	   {
+         "id" : "missionary_collector",
+         "buffs" : 
+         [
+            "TRINKET_MISS_GUARDDURRECV_B",
+            "TRINKET_MISS_GUARDDUR_B",
+            "TRINKET_MISS_BLEEDRESIST_B",
+            "DMGH-20",
+            "DMGL-20"
+         ],
+         "hero_class_requirements":
+         [
+            "missionary"
+         ],
+         "rarity" : "collector",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "missionary_ship",
+         "buffs" : 
+         [
+            "TRINKET_MISS_DMGRECV_combat_B",
+            "TRINKET_MISS_DMGRECV_vsNOTfalse_D",
+            "TRINKET_MISS_HEALRECV_BLEEDING_B"
+         ],
+         "hero_class_requirements":
+         [
+            "missionary"
+         ],
+         "rarity": "sakura",
+		   "price": 30000,
+		   "limit": 1,
+		   "origin_dungeon": "ship",
+         "attack_skill_additional_effects": [ 
+            "Missionary_Trinket_Perfgroupother_Steal_Bleed", 
+            "Missionary_Trinket_Targetgroup_Steal_Bleed"
+         ],
+         "friendly_skill_additional_effects": [
+            "Missionary_Trinket_Perfgroupother_Steal_Bleed", 
+            "Missionary_Trinket_Targetenemygroup_Steal_Bleed"
+         ]
+      }
+   ]
+}
