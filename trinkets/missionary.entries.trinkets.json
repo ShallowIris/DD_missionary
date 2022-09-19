@@ -59,7 +59,8 @@
             "TRINKET_MISS_HEALING_B",
             "TRINKET_MISS_STRESSHEAL_B",
             "TRINKET_MISS_CORPUS_CUREBLEED_B",
-            "TRINKET_MISS_CORPUS_CUREBLIGHT_B"
+            "TRINKET_MISS_CORPUS_CUREBLIGHT_B",
+            "TRINKET_MISS_CORPUS_TT"
          ],
          "hero_class_requirements":
          [
@@ -147,9 +148,12 @@
          "id" : "missionary_ship",
          "buffs" : 
          [
+            "TRINKET_MISS_TRANSFER_BLEED_TT",
+            "TRINKET_MISS_DOT_DMGRECV_TT",
             "TRINKET_MISS_DMGRECV_combat_B",
             "TRINKET_MISS_DMGRECV_vsNOTfalse_D",
-            "TRINKET_MISS_HEALRECV_BLEEDING_B"
+            "TRINKET_MISS_HEALRECV_BLEEDING_B",
+            "MISSIONARY_TT_CLEANER"
          ],
          "hero_class_requirements":
          [

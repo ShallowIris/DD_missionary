@@ -51,7 +51,34 @@ Blind Faith]]></entry>
 	
 	<!--trinkets-->
 	
-	<!--tooltips-->
+	<entry id="str_inventory_title_trinketmissionary_common"><![CDATA[Esoteric Manuscript]]></entry> 
+	<entry id="str_inventory_title_trinketmissionary_uncommon"><![CDATA[Deceitful Manuscript]]></entry>
+	<entry id="str_inventory_title_trinketmissionary_rare"><![CDATA[Cut-Glass Tear Charm]]></entry>
+	<entry id="str_inventory_title_trinketmissionary_very_rare"><![CDATA[Sanguinary Tear Charm]]></entry>
+	<entry id="str_inventory_title_trinketmissionary_nightmare_1"><![CDATA[Nun's Habit]]></entry>
+	<entry id="str_inventory_title_trinketmissionary_nightmare_2"><![CDATA[Radiant Blessing]]></entry>
+	<entry id="str_inventory_title_trinketmissionary_shard"><![CDATA[Crisis of Faith]]></entry>
+	<entry id="str_inventory_title_trinketmissionary_collector"><![CDATA[Wails of Amandine]]></entry>
+	<entry id="str_inventory_title_trinketmissionary_ship"><![CDATA[Mokumokuren Plate]]></entry>
+
+	<entry id="str_inventory_set_title_missionary_nightmare"><![CDATA["Do not disappoint The Light. It will come for you."]]></entry>
+	<entry id="str_inventory_set_title_missionary_shard_flavor"><![CDATA[{colour_start|comet}"She is the last maiden in the world to fit the role of a hero."{colour_end}]]></entry>
+
+	<!--common tooltips-->
+
+    <entry id="skill_performer_hp_max"><![CDATA[Valid below %d%% HP]]></entry>
+	<entry id="buff_stat_tooltip_stress_dot_amount_received_percent"><![CDATA[%d%% {colour_start|stress}Horror{colour_end} Amount Received]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[+%d%% {colour_start|bleed}Bleed{colour_end} Duration Received]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[+%d%% {colour_start|bleed}Bleed{colour_end} Duration Received]]></entry>
+	<entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[+%d%% {colour_start|guard}Guard{colour_end} Duration]]></entry>
+	<entry id="buff_stat_tooltip_guard_duration_received_percent"><![CDATA[+%d%% {colour_start|guard}Guard{colour_end} Duration Received]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit"><![CDATA[On Attack Hit:]]></entry>
+    <entry id="trinket_riposte_skill_additional_effects_hit_miss"><![CDATA[On Riposte:]]></entry>
+    <entry id="trinket_was_hit_additional_effects"><![CDATA[On Hero Being Hit:]]></entry>
+
+	<!--custom tooltips-->
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_MISSIONARY_TT_CLEANER"><![CDATA[{colour_start|MISS_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_MISS_DOGMA_COOLDOWN_TOOLTIP"><![CDATA[{colour_start|notable}Uses per Battle: 1
 Can't Be Refreshed{colour_end}
 {colour_start|stress}Stress{colour_end} -8
@@ -59,17 +86,28 @@ Torch +20]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_MISS_DOGMA_UHH_COOLDOWN_TOOLTIP"><![CDATA[{colour_start|notable}Recite Dogma: Can't Be Used{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_MISS_HOSTICIDE_TOOLTIP_1"><![CDATA[Self:
 {colour_start|mark}Mark{colour_end} Target (50%% chance)]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_MISS_HOSTICIDE_TOOLTIP_2"><![CDATA[Remove {colour_start|bleed}Bleed{colour_end} Amount Buff]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_MISS_HOSTICIDE_TOOLTIP_2"><![CDATA[Remove {colour_start|bleed}Bleed{colour_end} Amount Buff from Riposte]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_MISS_MORTIFIER_TOOLTIP_1"><![CDATA[Per Rank Travelled: {colour_start|stun}Stun{colour_end} / {colour_start|move}Move{colour_end} Chance +20%%]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_MISS_MORTIFIER_TOOLTIP_2"><![CDATA[Self:
 {colour_start|mark}Mark{colour_end} Target (50%% chance)
 {colour_start|move}Forward{colour_end} 3]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_MISS_DOME_TOOLTIP_1"><![CDATA[{colour_start|notable}Cooldown: 3 rds
 Shared Cooldown with Martyrdom{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_MISS_DOME_TOOLTIP_2"><![CDATA[Activate {colour_start|riposte}Riposte{colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_MISS_DOME_TOOLTIP_2_1"><![CDATA[Activate {colour_start|riposte}Riposte{colour_end}
 {colour_start|riposte}Riposte:{colour_end} DMG -200%% / ACC 90 / CRIT 0%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_MISS_DOME_TOOLTIP_2_2"><![CDATA[Activate {colour_start|riposte}Riposte{colour_end}
+{colour_start|riposte}Riposte:{colour_end} DMG -200%% / ACC 95 / CRIT 1%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_MISS_DOME_TOOLTIP_2_3"><![CDATA[Activate {colour_start|riposte}Riposte{colour_end}
+{colour_start|riposte}Riposte:{colour_end} DMG -200%% / ACC 100 / CRIT 2%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_MISS_DOME_TOOLTIP_2_4"><![CDATA[Activate {colour_start|riposte}Riposte{colour_end}
+{colour_start|riposte}Riposte:{colour_end} DMG -200%% / ACC 105 / CRIT 3%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_MISS_DOME_TOOLTIP_2_5"><![CDATA[Activate {colour_start|riposte}Riposte{colour_end}
+{colour_start|riposte}Riposte:{colour_end} DMG -200%% / ACC 110 / CRIT 4%%]]></entry>
 <entry id="buff_stat_tooltip_upgrade_discount_MISS_DOME_TOOLTIP_3"><![CDATA[{colour_start|buff}Buff Self:{colour_end} {colour_start|bleed}Bleed{colour_end} Amount +20%%
 {colour_start|debuff}Debuff Target:{colour_end} {colour_start|bleed}Bleed{colour_end} Resist -20%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_MISS_CORPUS_TT"><![CDATA[{colour_start|notable}Corpus Luceat:{colour_end} Cure {colour_start|bleed}Bleed{colour_end}/{colour_start|blight}Blight{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_MISS_TRANSFER_BLEED_TT"><![CDATA[On Action: Transfer {colour_start|bleed}Bleed{colour_end} from Enemies and Allies]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_MISS_DOT_DMGRECV_TT"><![CDATA[-50%% DMG Taken from {colour_start|bleed}Bleed{colour_end}/{colour_start|blight}Blight{colour_end}]]></entry>
 
 	<!--town events-->
 	

@@ -1,1 +1,2 @@
 colour: .id "MISS_friendly_target"                                    .rgba 115 201 73 255
+colour: .id "MISS_invisible"             .rgba 0 0 0 0

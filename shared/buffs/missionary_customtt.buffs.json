@@ -2,6 +2,19 @@
    "buffs":
    [
       {
+         "id" : "MISSIONARY_TT_CLEANER",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "MISSIONARY_TT_CLEANER",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
          "id" : "MISS_HOSTICIDE_TOOLTIP_1",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "MISS_HOSTICIDE_TOOLTIP_1",
@@ -67,9 +80,61 @@
          }
       },
       {
-         "id" : "MISS_DOME_TOOLTIP_2",
+         "id" : "MISS_DOME_TOOLTIP_2_1",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "MISS_DOME_TOOLTIP_2",
+         "stat_sub_type" : "MISS_DOME_TOOLTIP_2_1",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "MISS_DOME_TOOLTIP_2_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "MISS_DOME_TOOLTIP_2_2",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "MISS_DOME_TOOLTIP_2_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "MISS_DOME_TOOLTIP_2_3",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "MISS_DOME_TOOLTIP_2_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "MISS_DOME_TOOLTIP_2_4",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "MISS_DOME_TOOLTIP_2_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "MISS_DOME_TOOLTIP_2_5",
          "amount" : 1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -110,7 +175,7 @@
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "MISS_DOGMA_UHH_COOLDOWN_TOOLTIP",
          "amount" : -1,
-		 "remove_on_battle_complete" : true,
+		   "remove_on_battle_complete" : true,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -119,6 +184,45 @@
             "string" : ""
          },
 		 "is_clear_debuff_valid": false
+      },
+      {
+         "id" : "TRINKET_MISS_CORPUS_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "MISS_CORPUS_TT",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "TRINKET_MISS_TRANSFER_BLEED_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "MISS_TRANSFER_BLEED_TT",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "TRINKET_MISS_DOT_DMGRECV_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "MISS_DOT_DMGRECV_TT",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
       }
 	]
 }
