@@ -62,7 +62,7 @@ Blind Faith]]></entry>
 	<entry id="str_inventory_title_trinketmissionary_ship"><![CDATA[Mokumokuren Plate]]></entry>
 
 	<entry id="str_inventory_set_title_missionary_nightmare"><![CDATA["Do not disappoint The Light. It will come for you."]]></entry>
-	<entry id="str_inventory_set_title_missionary_shard_flavor"><![CDATA[{colour_start|comet}"She is the last maiden in the world to fit the role of a hero."{colour_end}]]></entry>
+	<entry id="str_inventory_set_title_missionary_shard_flavor"><![CDATA["She is the last maiden in the world to fit the role of a hero."]]></entry>
 
 	<!--common tooltips-->
 
