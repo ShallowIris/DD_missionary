@@ -103,8 +103,15 @@ Shared Cooldown with Martyrdom{colour_end}]]></entry>
 {colour_start|riposte}Riposte:{colour_end} DMG -200%% / ACC 105 / CRIT 3%%]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_MISS_DOME_TOOLTIP_2_5"><![CDATA[Activate {colour_start|riposte}Riposte{colour_end}
 {colour_start|riposte}Riposte:{colour_end} DMG -200%% / ACC 110 / CRIT 4%%]]></entry>
-<entry id="buff_stat_tooltip_upgrade_discount_MISS_DOME_TOOLTIP_3"><![CDATA[{colour_start|buff}Buff Self:{colour_end} {colour_start|bleed}Bleed{colour_end} Amount +20%%
-{colour_start|debuff}Debuff Target:{colour_end} {colour_start|bleed}Bleed{colour_end} Resist -20%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_MISS_DOME_TOOLTIP_3"><![CDATA[On {colour_start|riposte}Riposte:{colour_end} {colour_start|buff}Buff Self:{colour_end} {colour_start|bleed}Bleed{colour_end} Amount +20%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_MISS_DOME_TOOLTIP_4"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end} {colour_start|bleed}Bleed{colour_end} Resist -20%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_MISS_DOME_BUFF_TOOLTIP_1_1"><![CDATA[{colour_start|riposte}Riposte:{colour_end} DMG -200%% / ACC 90]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_MISS_DOME_BUFF_TOOLTIP_1_2"><![CDATA[{colour_start|riposte}Riposte:{colour_end} DMG -200%% / ACC 95 / CRIT +1%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_MISS_DOME_BUFF_TOOLTIP_1_3"><![CDATA[{colour_start|riposte}Riposte:{colour_end} DMG -200%% / ACC 100 / CRIT +2%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_MISS_DOME_BUFF_TOOLTIP_1_4"><![CDATA[{colour_start|riposte}Riposte:{colour_end} DMG -200%% / ACC 105 / CRIT +3%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_MISS_DOME_BUFF_TOOLTIP_1_5"><![CDATA[{colour_start|riposte}Riposte:{colour_end} DMG -200%% / ACC 110 / CRIT +4%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_MISS_DOME_BUFF_TOOLTIP_2"><![CDATA[On {colour_start|riposte}Riposte:{colour_end} {colour_start|buff}Buff Self:{colour_end} {colour_start|bleed}Bleed{colour_end} Amount +20%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_MISS_DOME_BUFF_TOOLTIP_3"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end} {colour_start|bleed}Bleed{colour_end} Resist -20%%]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_MISS_CORPUS_TT"><![CDATA[{colour_start|notable}Corpus Luceat:{colour_end} Cure {colour_start|bleed}Bleed{colour_end}/{colour_start|blight}Blight{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_MISS_TRANSFER_BLEED_TT"><![CDATA[On Action: Transfer {colour_start|bleed}Bleed{colour_end} from Enemies and Allies]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_MISS_DOT_DMGRECV_TT"><![CDATA[-50%% DMG Taken from {colour_start|bleed}Bleed{colour_end}/{colour_start|blight}Blight{colour_end} in Combat]]></entry>

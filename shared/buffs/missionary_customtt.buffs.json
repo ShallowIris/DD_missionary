@@ -158,6 +158,110 @@
          }
       },
       {
+         "id" : "MISS_DOME_TOOLTIP_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "MISS_DOME_TOOLTIP_4",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "MISS_DOME_BUFF_TOOLTIP_1_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "MISS_DOME_BUFF_TOOLTIP_1_1",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "MISS_DOME_BUFF_TOOLTIP_1_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "MISS_DOME_BUFF_TOOLTIP_1_2",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "MISS_DOME_BUFF_TOOLTIP_1_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "MISS_DOME_BUFF_TOOLTIP_1_3",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "MISS_DOME_BUFF_TOOLTIP_1_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "MISS_DOME_BUFF_TOOLTIP_1_4",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "MISS_DOME_BUFF_TOOLTIP_1_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "MISS_DOME_BUFF_TOOLTIP_1_5",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "MISS_DOME_BUFF_TOOLTIP_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "MISS_DOME_BUFF_TOOLTIP_2",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "MISS_DOME_BUFF_TOOLTIP_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "MISS_DOME_BUFF_TOOLTIP_3",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
          "id" : "MISS_DOGMA_COOLDOWN_TOOLTIP",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "MISS_DOGMA_COOLDOWN_TOOLTIP",
