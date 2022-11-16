@@ -45,9 +45,9 @@ Blind Faith]]></entry>
     <entry id="camping_skill_name_lamento"><![CDATA[LAMENT]]></entry>
 	<entry id="camping_skill_name_ad_meliora"><![CDATA[AD MELIORA]]></entry>
 	
-    <entry id="action_verbose_body_guild_missionary"><![CDATA[Be Not Afraid]]></entry> 
-    <entry id="action_verbose_body_blacksmith_missionary"><![CDATA[1]]></entry>
-    <entry id="action_verbose_body_camping_trainer_missionary"><![CDATA[1]]></entry>
+    <entry id="action_verbose_body_guild_missionary"><![CDATA[The Missionary is a pious warrior who shields allies against not just physical, but mental threats. Her equipment's bulk and divine powers bolster her with ample defense, provide a bleeding edge, and disrupt enemy skills. And when she is marked, that's when her defenses truly shine.]]></entry> 
+    <entry id="action_verbose_body_blacksmith_missionary"><![CDATA[Wearing an imposing suit of plate armor and a pavise into battle, the Missionary is a defensive force to be respected. Though there are doubts about the form-over-function design of her armor, it is nonetheless effective. Her pavise easily opens critical wounds, but its damage is unremarkable.]]></entry>
+    <entry id="action_verbose_body_camping_trainer_missionary"><![CDATA[Unlike her position as a stalwart wall in battle, the Missionary's doubts rise with the fire. She will provide The Light's blessings to allies whose resolve wavers, as well as bring forth its cleansing might. However, it is clear something grotesque haunts her troubled spirit...]]></entry>
 	
 	<!--trinkets-->
 	
