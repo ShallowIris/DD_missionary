@@ -135,10 +135,7 @@
             "DMGH-20",
             "DMGL-20"
          ],
-         "hero_class_requirements":
-         [
-            "missionary"
-         ],
+         "hero_class_requirements": [],
          "rarity" : "collector",
          "price" : 15000,
          "limit" : 1,

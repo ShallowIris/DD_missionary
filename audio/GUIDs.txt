@@ -1,0 +1,14 @@
+{14cca37d-6c72-4f89-9811-98ae451b7962} event:/camp/skill/missionary_lament
+{1c903832-fe75-4cb1-903e-ae350497fec2} event:/camp/skill/missionary_meliora
+{d1217f9c-53db-41b8-94ab-86d2748fc2b9} event:/camp/skill/missionary_negatio
+{0e63d4bf-2bc8-4783-9f04-f62e47cd3a0d} event:/camp/skill/missionary_requiem
+{38faed22-378a-47bb-9b89-d5cda393f7a8} event:/char/ally/missionary_morti
+{c0c15089-8ed6-434d-a194-bbd7be4fb4c7} event:/char/ally/missionary_morti_miss
+{86463fbb-70e7-4df6-964c-a1db9c08d997} event:/char/ally/missionary_dome
+{58bde785-4ba2-4b3c-9ed5-87ed3ea19902} event:/char/ally/missionary_martyr
+{14aa5d0e-dd2b-4242-a637-a6b5cf58c155} event:/char/ally/missionary_hosticide
+{95eb5a3c-033f-47f0-a40a-29aada5002a5} event:/char/ally/missionary_hosticide_miss
+{5431b11d-5bf4-49ca-949e-58144b3429f5} event:/char/ally/missionary_dogma
+{cc207b56-1873-4f58-a7c7-ac7354466d51} event:/char/ally/missionary_clamant
+{5febf5c4-7348-4ebc-9df3-875071d13b9f} event:/char/ally/missionary_clamant_miss
+{f16b1935-8f6f-41c6-9672-6885f0b906ed} event:/char/ally/missionary_corpus
