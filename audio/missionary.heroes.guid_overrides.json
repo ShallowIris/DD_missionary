@@ -11,6 +11,8 @@
         {"event_id": "event:/char/ally/missionary_missionary_dogma", "guid_override":"{5431b11d-5bf4-49ca-949e-58144b3429f5}"},
         {"event_id": "event:/char/ally/missionary_missionary_dome", "guid_override":"{86463fbb-70e7-4df6-964c-a1db9c08d997}"},
         {"event_id": "event:/char/ally/missionary_missionary_corpus", "guid_override":"{f16b1935-8f6f-41c6-9672-6885f0b906ed}"},
+        {"event_id": "event:/char/ally/missionary_missionary_riposte1", "guid_override":"{14aa5d0e-dd2b-4242-a637-a6b5cf58c155}"},
+        {"event_id": "event:/char/ally/missionary_missionary_riposte1_miss", "guid_override":"{95eb5a3c-033f-47f0-a40a-29aada5002a5}"},
 
         {"event_id": "event:/camp/skill/requiem_aeternam", "guid_override":"{0e63d4bf-2bc8-4783-9f04-f62e47cd3a0d}"},
         {"event_id": "event:/camp/skill/negatio", "guid_override":"{d1217f9c-53db-41b8-94ab-86d2748fc2b9}"},
