@@ -60,7 +60,7 @@ effect: .name "Missionary_Mortifier_Push_4" .target "target" .push 2 .chance 110
 effect: .name "Missionary_Mortifier_Push_5" .target "target" .push 2 .chance 120%	.on_hit true .on_miss false .can_apply_on_death true .queue false
 
 effect: .name "Missionary_Mortifier_Forward" .target "performer" .pull 3 .chance 5000% .on_hit true .on_miss true .can_apply_on_death true .queue false .has_description false
-effect: .name "Missionary_Mortifier_Travelled_Distance_Multiplier" .target "performer" .chance 100% .skill_instant true .buff_ids "MISS_MORTIFIER_RANK4_STUN_CHANCE" "MISS_MORTIFIER_RANK3_STUN_CHANCE" "MISS_MORTIFIER_RANK2_STUN_CHANCE" "MISS_MORTIFIER_RANK4_MOVE_CHANCE" "MISS_MORTIFIER_RANK3_MOVE_CHANCE" "MISS_MORTIFIER_RANK2_MOVE_CHANCE" .on_hit true .on_miss false .has_description false
+effect: .name "Missionary_Mortifier_Travelled_Distance_Multiplier" .target "performer" .chance 100% .skill_instant true .duration 1 .buff_ids "MISS_MORTIFIER_RANK4_STUN_CHANCE" "MISS_MORTIFIER_RANK3_STUN_CHANCE" "MISS_MORTIFIER_RANK2_STUN_CHANCE" "MISS_MORTIFIER_RANK4_MOVE_CHANCE" "MISS_MORTIFIER_RANK3_MOVE_CHANCE" "MISS_MORTIFIER_RANK2_MOVE_CHANCE" .on_hit true .on_miss false .has_description false
 effect: .name "Missionary_Mortifier_TT_1" .target "performer" .skill_instant true .chance 100% .buff_ids "MISS_MORTIFIER_TOOLTIP_1" .on_hit true .on_miss true
 effect: .name "Missionary_Mortifier_TT_2" .target "performer" .skill_instant true .chance 100% .buff_ids "MISS_MORTIFIER_TOOLTIP_2" .on_hit true .on_miss true
 
